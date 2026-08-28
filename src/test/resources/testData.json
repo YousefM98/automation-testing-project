@@ -1,0 +1,21 @@
+{
+  "validUser": {
+    "username": "Admin",
+    "password": "admin123"
+  },
+  "invalidUser": {
+    "username": "wrong_user",
+    "password": "wrong_password"
+  },
+  "validName": {
+    "firstName": "Yousef",
+    "lastName": "Mohsen"
+  },
+  "invalidName": {
+    "firstName": "wrong",
+    "lastName": "wrong"
+  },
+  "ExistingEmployee":{
+  "fullName":"Existing Employee"
+}
+}

@@ -1,0 +1,1521 @@
+2026-08-28 21:59:04 INFO  LoginTest - Entering valid login credentials
+2026-08-28 22:04:22 INFO  LoginTest - ========== Starting Empty Fields Login Test ==========
+2026-08-28 22:04:22 INFO  LoginTest - Initializing Login Page
+2026-08-28 22:04:22 INFO  LoginTest - Attempting login with empty username and password fields
+2026-08-28 22:04:23 INFO  LoginTest - Verifying that the current URL contains the Login URL extension
+2026-08-28 22:04:23 INFO  LoginTest - Login URL verification passed
+2026-08-28 22:04:23 INFO  LoginTest - Verifying username required validation message
+2026-08-28 22:04:23 INFO  LoginTest - Username required validation message verification passed
+2026-08-28 22:04:23 INFO  LoginTest - Verifying password required validation message
+2026-08-28 22:04:23 INFO  LoginTest - Password required validation message verification passed
+2026-08-28 22:04:23 INFO  LoginTest - ========== Empty Fields Login Test Passed ==========
+2026-08-28 22:04:25 INFO  LoginTest - ========== Starting Invalid Credentials Login Test ==========
+2026-08-28 22:04:25 INFO  LoginTest - Initializing Login Page
+2026-08-28 22:04:25 INFO  LoginTest - Attempting login with invalid credentials for user: wrong_user
+2026-08-28 22:04:27 INFO  LoginTest - Verifying that the current URL contains the Login URL extension
+2026-08-28 22:04:27 INFO  LoginTest - Login URL verification passed
+2026-08-28 22:04:27 INFO  LoginTest - Verifying that the invalid credentials error message is displayed
+2026-08-28 22:04:27 INFO  LoginTest - Invalid credentials error message verification passed
+2026-08-28 22:04:27 INFO  LoginTest - ========== Invalid Credentials Login Test Passed ==========
+2026-08-28 22:04:30 INFO  LoginTest - ========== Starting Successful Login Test ==========
+2026-08-28 22:04:30 INFO  LoginTest - Initializing Login Page
+2026-08-28 22:04:30 INFO  LoginTest - Attempting login with valid credentials for user: Admin
+2026-08-28 22:04:31 INFO  LoginTest - Verifying that the current URL contains the Dashboard URL extension
+2026-08-28 22:04:31 INFO  LoginTest - Dashboard URL verification passed
+2026-08-28 22:04:31 INFO  LoginTest - Verifying that the Dashboard header is displayed
+2026-08-28 22:04:32 INFO  LoginTest - Dashboard header verification passed
+2026-08-28 22:04:32 INFO  LoginTest - ========== Successful Login Test Passed ==========
+2026-08-28 22:09:21 INFO  PIM_Test - ========== Starting Add Employee Page Test ==========
+2026-08-28 22:09:21 INFO  PIM_Test - Initializing Login Page
+2026-08-28 22:09:21 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 22:09:21 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 22:09:22 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 22:09:23 INFO  PIM_Test - Clicking Add Employee button
+2026-08-28 22:09:24 INFO  PIM_Test - Verifying that the First Name input field is displayed
+2026-08-28 22:09:25 INFO  PIM_Test - First Name input field verification passed
+2026-08-28 22:09:25 INFO  PIM_Test - Verifying that the Last Name input field is displayed
+2026-08-28 22:09:25 INFO  PIM_Test - Last Name input field verification passed
+2026-08-28 22:09:25 INFO  PIM_Test - Verifying that the current URL contains the Add Employee URL extension
+2026-08-28 22:09:25 INFO  PIM_Test - Add Employee URL verification passed
+2026-08-28 22:09:25 INFO  PIM_Test - ========== Add Employee Page Test Passed ==========
+2026-08-28 22:09:27 INFO  PIM_Test - ========== Starting Add Employee Empty First Name Test ==========
+2026-08-28 22:09:27 INFO  PIM_Test - Initializing Login Page
+2026-08-28 22:09:27 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 22:09:27 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 22:09:29 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 22:09:30 INFO  PIM_Test - Clicking Add Employee button
+2026-08-28 22:09:31 INFO  PIM_Test - Entering last name: Mohsen
+2026-08-28 22:09:32 INFO  PIM_Test - Clicking Save button without entering first name
+2026-08-28 22:09:32 INFO  PIM_Test - Verifying that the required message is displayed under the First Name field
+2026-08-28 22:09:33 INFO  PIM_Test - First Name required message verification passed
+2026-08-28 22:09:33 INFO  PIM_Test - ========== Add Employee Empty First Name Test Passed ==========
+2026-08-28 22:09:35 INFO  PIM_Test - ========== Starting End-to-End Employee Test ==========
+2026-08-28 22:09:35 INFO  PIM_Test - Initializing Login Page
+2026-08-28 22:09:35 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 22:09:35 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 22:09:37 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 22:09:38 INFO  PIM_Test - Clicking Add Employee button
+2026-08-28 22:09:39 INFO  PIM_Test - Entering first name: Yousef
+2026-08-28 22:09:40 INFO  PIM_Test - Entering last name: Mohsen
+2026-08-28 22:09:40 INFO  PIM_Test - Saving new employee: Yousef Mohsen
+2026-08-28 22:09:40 INFO  PIM_Test - Navigating back to PIM employee list
+2026-08-28 22:09:41 INFO  PIM_Test - Searching for newly created employee: Yousef Mohsen
+2026-08-28 22:09:41 INFO  PIM_Test - Clicking Search button
+2026-08-28 22:09:41 INFO  PIM_Test - Verifying that the newly created employee is displayed in the search results
+2026-08-28 22:09:42 INFO  PIM_Test - Newly created employee search verification passed
+2026-08-28 22:09:42 INFO  PIM_Test - ========== End-to-End Employee Test Passed ==========
+2026-08-28 22:09:44 INFO  PIM_Test - ========== Starting Existing Employee Search Test ==========
+2026-08-28 22:09:44 INFO  PIM_Test - Initializing Login Page
+2026-08-28 22:09:44 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 22:09:44 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 22:09:46 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 22:09:47 INFO  PIM_Test - Searching for existing employee: Existing Employee
+2026-08-28 22:09:48 INFO  PIM_Test - Clicking Search button
+2026-08-28 22:09:48 INFO  PIM_Test - Verifying that the searched employee is displayed in the results
+2026-08-28 22:09:49 INFO  PIM_Test - Existing employee search verification passed
+2026-08-28 22:09:49 INFO  PIM_Test - ========== Existing Employee Search Test Passed ==========
+2026-08-28 22:09:51 INFO  PIM_Test - ========== Starting Non-Existing Employee Search Test ==========
+2026-08-28 22:09:51 INFO  PIM_Test - Initializing Login Page
+2026-08-28 22:09:51 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 22:09:51 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 22:09:53 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 22:09:54 INFO  PIM_Test - Searching for non-existing employee: wrong wrong
+2026-08-28 22:09:55 INFO  PIM_Test - Clicking Search button
+2026-08-28 22:09:55 INFO  PIM_Test - Verifying that the 'No Records Found' message is displayed
+2026-08-28 22:09:55 INFO  PIM_Test - No Records Found message verification passed
+2026-08-28 22:09:55 INFO  PIM_Test - ========== Non-Existing Employee Search Test Passed ==========
+2026-08-28 22:12:27 INFO  AdminTest - ========== Starting Add User Content Test ==========
+2026-08-28 22:12:27 INFO  AdminTest - Initializing Login Page
+2026-08-28 22:12:27 INFO  AdminTest - Initializing Admin Page
+2026-08-28 22:12:27 INFO  AdminTest - Logging in with valid credentials for user: Admin
+2026-08-28 22:12:29 INFO  AdminTest - Navigating to Admin page
+2026-08-28 22:12:30 INFO  AdminTest - Opening User Management menu
+2026-08-28 22:12:31 INFO  AdminTest - Opening Users page
+2026-08-28 22:12:31 INFO  AdminTest - Clicking Add button to open Add User page
+2026-08-28 22:12:32 INFO  AdminTest - Verifying that the User Role dropdown is displayed
+2026-08-28 22:12:33 INFO  AdminTest - User Role dropdown verification passed
+2026-08-28 22:12:33 INFO  AdminTest - Verifying that the Employee Name field is displayed
+2026-08-28 22:12:33 INFO  AdminTest - Employee Name field verification passed
+2026-08-28 22:12:33 INFO  AdminTest - Verifying that the Username field is displayed
+2026-08-28 22:12:33 INFO  AdminTest - Username field verification passed
+2026-08-28 22:12:33 INFO  AdminTest - Verifying that the Password field is displayed
+2026-08-28 22:12:33 INFO  AdminTest - Password field verification passed
+2026-08-28 22:12:33 INFO  AdminTest - ========== Add User Content Test Passed ==========
+2026-08-28 22:14:32 INFO  DashboardTest - ========== Starting OrangeHRM Footer Link Test ==========
+2026-08-28 22:14:32 INFO  DashboardTest - Initializing Login Page
+2026-08-28 22:14:32 INFO  DashboardTest - Initializing Dashboard Page
+2026-08-28 22:14:32 INFO  DashboardTest - Logging in with valid credentials for user: Admin
+2026-08-28 22:14:34 INFO  DashboardTest - Scrolling to the footer
+2026-08-28 22:14:35 INFO  DashboardTest - Verifying that the footer contains 'OrangeHRM, Inc'
+2026-08-28 22:14:35 INFO  DashboardTest - Footer content verification passed
+2026-08-28 22:14:35 INFO  DashboardTest - Storing the original browser window handle
+2026-08-28 22:14:35 INFO  DashboardTest - Clicking the OrangeHRM footer link
+2026-08-28 22:14:35 INFO  DashboardTest - Switching to the newly opened OrangeHRM tab
+2026-08-28 22:14:35 INFO  DashboardTest - Verifying that the new tab URL contains 'orangehrm.com'
+2026-08-28 22:14:38 INFO  DashboardTest - OrangeHRM URL verification passed
+2026-08-28 22:14:38 INFO  DashboardTest - Closing the OrangeHRM tab
+2026-08-28 22:14:38 INFO  DashboardTest - Switching back to the original browser window
+2026-08-28 22:14:38 INFO  DashboardTest - ========== OrangeHRM Footer Link Test Passed ==========
+2026-08-28 22:14:41 INFO  DashboardTest - ========== Starting Dashboard Sidebar Menu Test ==========
+2026-08-28 22:14:41 INFO  DashboardTest - Initializing Login Page
+2026-08-28 22:14:41 INFO  DashboardTest - Initializing Dashboard Page
+2026-08-28 22:14:41 INFO  DashboardTest - Logging in with valid credentials for user: Admin
+2026-08-28 22:14:42 INFO  DashboardTest - Verifying that the Admin menu is displayed
+2026-08-28 22:14:43 INFO  DashboardTest - Admin menu verification passed
+2026-08-28 22:14:43 INFO  DashboardTest - Verifying that the PIM menu is displayed
+2026-08-28 22:14:43 INFO  DashboardTest - PIM menu verification passed
+2026-08-28 22:14:43 INFO  DashboardTest - Verifying that the Leave menu is displayed
+2026-08-28 22:14:43 INFO  DashboardTest - Leave menu verification passed
+2026-08-28 22:14:43 INFO  DashboardTest - Verifying that the Time menu is displayed
+2026-08-28 22:14:43 INFO  DashboardTest - Time menu verification passed
+2026-08-28 22:14:43 INFO  DashboardTest - Verifying that the Recruitment menu is displayed
+2026-08-28 22:14:43 INFO  DashboardTest - Recruitment menu verification passed
+2026-08-28 22:14:43 INFO  DashboardTest - Verifying that the My Info menu is displayed
+2026-08-28 22:14:43 INFO  DashboardTest - My Info menu verification passed
+2026-08-28 22:14:43 INFO  DashboardTest - Verifying that the Performance menu is displayed
+2026-08-28 22:14:43 INFO  DashboardTest - Performance menu verification passed
+2026-08-28 22:14:43 INFO  DashboardTest - Verifying that the Dashboard menu is displayed
+2026-08-28 22:14:43 INFO  DashboardTest - Dashboard menu verification passed
+2026-08-28 22:14:43 INFO  DashboardTest - Verifying that the Directory menu is displayed
+2026-08-28 22:14:43 INFO  DashboardTest - Directory menu verification passed
+2026-08-28 22:14:43 INFO  DashboardTest - ========== Dashboard Sidebar Menu Test Passed ==========
+2026-08-28 22:15:01 INFO  PIM_Test - ========== Starting Add Employee Page Test ==========
+2026-08-28 22:15:01 INFO  PIM_Test - Initializing Login Page
+2026-08-28 22:15:01 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 22:15:01 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 22:15:02 INFO  LoginTest - ========== Starting Empty Fields Login Test ==========
+2026-08-28 22:15:02 INFO  LoginTest - Initializing Login Page
+2026-08-28 22:15:02 INFO  LoginTest - Attempting login with empty username and password fields
+2026-08-28 22:15:03 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 22:15:03 INFO  AdminTest - ========== Starting Add User Content Test ==========
+2026-08-28 22:15:03 INFO  AdminTest - Initializing Login Page
+2026-08-28 22:15:03 INFO  AdminTest - Initializing Admin Page
+2026-08-28 22:15:03 INFO  AdminTest - Logging in with valid credentials for user: Admin
+2026-08-28 22:15:03 INFO  LoginTest - Verifying that the current URL contains the Login URL extension
+2026-08-28 22:15:03 INFO  LoginTest - Login URL verification passed
+2026-08-28 22:15:03 INFO  LoginTest - Verifying username required validation message
+2026-08-28 22:15:03 INFO  LoginTest - Username required validation message verification passed
+2026-08-28 22:15:03 INFO  LoginTest - Verifying password required validation message
+2026-08-28 22:15:03 INFO  LoginTest - Password required validation message verification passed
+2026-08-28 22:15:03 INFO  LoginTest - ========== Empty Fields Login Test Passed ==========
+2026-08-28 22:15:04 INFO  PIM_Test - Clicking Add Employee button
+2026-08-28 22:15:05 INFO  AdminTest - Navigating to Admin page
+2026-08-28 22:15:05 INFO  PIM_Test - Verifying that the First Name input field is displayed
+2026-08-28 22:15:05 INFO  PIM_Test - First Name input field verification passed
+2026-08-28 22:15:05 INFO  PIM_Test - Verifying that the Last Name input field is displayed
+2026-08-28 22:15:05 INFO  PIM_Test - Last Name input field verification passed
+2026-08-28 22:15:05 INFO  PIM_Test - Verifying that the current URL contains the Add Employee URL extension
+2026-08-28 22:15:05 INFO  PIM_Test - Add Employee URL verification passed
+2026-08-28 22:15:05 INFO  PIM_Test - ========== Add Employee Page Test Passed ==========
+2026-08-28 22:15:06 INFO  LoginTest - ========== Starting Invalid Credentials Login Test ==========
+2026-08-28 22:15:06 INFO  LoginTest - Initializing Login Page
+2026-08-28 22:15:06 INFO  LoginTest - Attempting login with invalid credentials for user: wrong_user
+2026-08-28 22:15:06 INFO  AdminTest - Opening User Management menu
+2026-08-28 22:15:06 INFO  AdminTest - Opening Users page
+2026-08-28 22:15:07 INFO  AdminTest - Clicking Add button to open Add User page
+2026-08-28 22:15:07 INFO  LoginTest - Verifying that the current URL contains the Login URL extension
+2026-08-28 22:15:07 INFO  LoginTest - Login URL verification passed
+2026-08-28 22:15:07 INFO  LoginTest - Verifying that the invalid credentials error message is displayed
+2026-08-28 22:15:08 INFO  LoginTest - Invalid credentials error message verification passed
+2026-08-28 22:15:08 INFO  LoginTest - ========== Invalid Credentials Login Test Passed ==========
+2026-08-28 22:15:08 INFO  AdminTest - Verifying that the User Role dropdown is displayed
+2026-08-28 22:15:08 INFO  PIM_Test - ========== Starting Add Employee Empty First Name Test ==========
+2026-08-28 22:15:08 INFO  PIM_Test - Initializing Login Page
+2026-08-28 22:15:08 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 22:15:08 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 22:15:08 INFO  AdminTest - User Role dropdown verification passed
+2026-08-28 22:15:08 INFO  AdminTest - Verifying that the Employee Name field is displayed
+2026-08-28 22:15:08 INFO  AdminTest - Employee Name field verification passed
+2026-08-28 22:15:08 INFO  AdminTest - Verifying that the Username field is displayed
+2026-08-28 22:15:08 INFO  AdminTest - Username field verification passed
+2026-08-28 22:15:08 INFO  AdminTest - Verifying that the Password field is displayed
+2026-08-28 22:15:08 INFO  AdminTest - Password field verification passed
+2026-08-28 22:15:08 INFO  AdminTest - ========== Add User Content Test Passed ==========
+2026-08-28 22:15:10 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 22:15:11 INFO  LoginTest - ========== Starting Successful Login Test ==========
+2026-08-28 22:15:11 INFO  LoginTest - Initializing Login Page
+2026-08-28 22:15:11 INFO  LoginTest - Attempting login with valid credentials for user: Admin
+2026-08-28 22:15:12 INFO  PIM_Test - Clicking Add Employee button
+2026-08-28 22:15:13 INFO  LoginTest - Verifying that the current URL contains the Dashboard URL extension
+2026-08-28 22:15:13 INFO  LoginTest - Dashboard URL verification passed
+2026-08-28 22:15:13 INFO  LoginTest - Verifying that the Dashboard header is displayed
+2026-08-28 22:15:13 INFO  PIM_Test - Entering last name: Mohsen
+2026-08-28 22:15:13 INFO  LoginTest - Dashboard header verification passed
+2026-08-28 22:15:13 INFO  LoginTest - ========== Successful Login Test Passed ==========
+2026-08-28 22:15:14 INFO  PIM_Test - Clicking Save button without entering first name
+2026-08-28 22:15:14 INFO  PIM_Test - Verifying that the required message is displayed under the First Name field
+2026-08-28 22:15:14 INFO  DashboardTest - ========== Starting OrangeHRM Footer Link Test ==========
+2026-08-28 22:15:14 INFO  DashboardTest - Initializing Login Page
+2026-08-28 22:15:14 INFO  DashboardTest - Initializing Dashboard Page
+2026-08-28 22:15:14 INFO  DashboardTest - Logging in with valid credentials for user: Admin
+2026-08-28 22:15:15 INFO  PIM_Test - First Name required message verification passed
+2026-08-28 22:15:15 INFO  PIM_Test - ========== Add Employee Empty First Name Test Passed ==========
+2026-08-28 22:15:16 INFO  DashboardTest - Scrolling to the footer
+2026-08-28 22:15:16 INFO  DashboardTest - Verifying that the footer contains 'OrangeHRM, Inc'
+2026-08-28 22:15:16 INFO  DashboardTest - Footer content verification passed
+2026-08-28 22:15:16 INFO  DashboardTest - Storing the original browser window handle
+2026-08-28 22:15:16 INFO  DashboardTest - Clicking the OrangeHRM footer link
+2026-08-28 22:15:16 INFO  DashboardTest - Switching to the newly opened OrangeHRM tab
+2026-08-28 22:15:16 INFO  DashboardTest - Verifying that the new tab URL contains 'orangehrm.com'
+2026-08-28 22:15:18 INFO  PIM_Test - ========== Starting End-to-End Employee Test ==========
+2026-08-28 22:15:18 INFO  PIM_Test - Initializing Login Page
+2026-08-28 22:15:18 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 22:15:18 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 22:15:19 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 22:15:20 INFO  DashboardTest - OrangeHRM URL verification passed
+2026-08-28 22:15:20 INFO  DashboardTest - Closing the OrangeHRM tab
+2026-08-28 22:15:20 INFO  DashboardTest - Switching back to the original browser window
+2026-08-28 22:15:20 INFO  DashboardTest - ========== OrangeHRM Footer Link Test Passed ==========
+2026-08-28 22:15:21 INFO  PIM_Test - Clicking Add Employee button
+2026-08-28 22:15:22 INFO  PIM_Test - Entering first name: Yousef
+2026-08-28 22:15:22 INFO  PIM_Test - Entering last name: Mohsen
+2026-08-28 22:15:22 INFO  PIM_Test - Saving new employee: Yousef Mohsen
+2026-08-28 22:15:23 INFO  PIM_Test - Navigating back to PIM employee list
+2026-08-28 22:15:23 INFO  DashboardTest - ========== Starting Dashboard Sidebar Menu Test ==========
+2026-08-28 22:15:23 INFO  DashboardTest - Initializing Login Page
+2026-08-28 22:15:23 INFO  DashboardTest - Initializing Dashboard Page
+2026-08-28 22:15:23 INFO  DashboardTest - Logging in with valid credentials for user: Admin
+2026-08-28 22:15:23 INFO  PIM_Test - Searching for newly created employee: Yousef Mohsen
+2026-08-28 22:15:24 INFO  PIM_Test - Clicking Search button
+2026-08-28 22:15:24 INFO  PIM_Test - Verifying that the newly created employee is displayed in the search results
+2026-08-28 22:15:24 INFO  DashboardTest - Verifying that the Admin menu is displayed
+2026-08-28 22:15:25 INFO  PIM_Test - Newly created employee search verification passed
+2026-08-28 22:15:25 INFO  PIM_Test - ========== End-to-End Employee Test Passed ==========
+2026-08-28 22:15:25 INFO  DashboardTest - Admin menu verification passed
+2026-08-28 22:15:25 INFO  DashboardTest - Verifying that the PIM menu is displayed
+2026-08-28 22:15:25 INFO  DashboardTest - PIM menu verification passed
+2026-08-28 22:15:25 INFO  DashboardTest - Verifying that the Leave menu is displayed
+2026-08-28 22:15:25 INFO  DashboardTest - Leave menu verification passed
+2026-08-28 22:15:25 INFO  DashboardTest - Verifying that the Time menu is displayed
+2026-08-28 22:15:25 INFO  DashboardTest - Time menu verification passed
+2026-08-28 22:15:25 INFO  DashboardTest - Verifying that the Recruitment menu is displayed
+2026-08-28 22:15:25 INFO  DashboardTest - Recruitment menu verification passed
+2026-08-28 22:15:25 INFO  DashboardTest - Verifying that the My Info menu is displayed
+2026-08-28 22:15:25 INFO  DashboardTest - My Info menu verification passed
+2026-08-28 22:15:25 INFO  DashboardTest - Verifying that the Performance menu is displayed
+2026-08-28 22:15:25 INFO  DashboardTest - Performance menu verification passed
+2026-08-28 22:15:25 INFO  DashboardTest - Verifying that the Dashboard menu is displayed
+2026-08-28 22:15:25 INFO  DashboardTest - Dashboard menu verification passed
+2026-08-28 22:15:25 INFO  DashboardTest - Verifying that the Directory menu is displayed
+2026-08-28 22:15:25 INFO  DashboardTest - Directory menu verification passed
+2026-08-28 22:15:25 INFO  DashboardTest - ========== Dashboard Sidebar Menu Test Passed ==========
+2026-08-28 22:15:27 INFO  PIM_Test - ========== Starting Existing Employee Search Test ==========
+2026-08-28 22:15:27 INFO  PIM_Test - Initializing Login Page
+2026-08-28 22:15:27 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 22:15:27 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 22:15:29 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 22:15:30 INFO  PIM_Test - Searching for existing employee: Existing Employee
+2026-08-28 22:15:31 INFO  PIM_Test - Clicking Search button
+2026-08-28 22:15:31 INFO  PIM_Test - Verifying that the searched employee is displayed in the results
+2026-08-28 22:15:31 INFO  PIM_Test - Existing employee search verification passed
+2026-08-28 22:15:31 INFO  PIM_Test - ========== Existing Employee Search Test Passed ==========
+2026-08-28 22:15:34 INFO  PIM_Test - ========== Starting Non-Existing Employee Search Test ==========
+2026-08-28 22:15:34 INFO  PIM_Test - Initializing Login Page
+2026-08-28 22:15:34 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 22:15:34 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 22:15:35 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 22:15:37 INFO  PIM_Test - Searching for non-existing employee: wrong wrong
+2026-08-28 22:15:37 INFO  PIM_Test - Clicking Search button
+2026-08-28 22:15:38 INFO  PIM_Test - Verifying that the 'No Records Found' message is displayed
+2026-08-28 22:15:38 INFO  PIM_Test - No Records Found message verification passed
+2026-08-28 22:15:38 INFO  PIM_Test - ========== Non-Existing Employee Search Test Passed ==========
+2026-08-28 22:23:04 INFO  PIM_Test - ========== Starting Add Employee Page Test ==========
+2026-08-28 22:23:04 INFO  PIM_Test - Initializing Login Page
+2026-08-28 22:23:04 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 22:23:04 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 22:23:04 INFO  LoginTest - ========== Starting Empty Fields Login Test ==========
+2026-08-28 22:23:04 INFO  LoginTest - Initializing Login Page
+2026-08-28 22:23:04 INFO  LoginTest - Attempting login with empty username and password fields
+2026-08-28 22:23:05 INFO  LoginTest - Verifying that the current URL contains the Login URL extension
+2026-08-28 22:23:05 INFO  LoginTest - Login URL verification passed
+2026-08-28 22:23:05 INFO  LoginTest - Verifying username required validation message
+2026-08-28 22:23:05 INFO  LoginTest - Username required validation message verification passed
+2026-08-28 22:23:05 INFO  LoginTest - Verifying password required validation message
+2026-08-28 22:23:05 INFO  LoginTest - Password required validation message verification passed
+2026-08-28 22:23:05 INFO  LoginTest - ========== Empty Fields Login Test Passed ==========
+2026-08-28 22:23:05 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 22:23:05 INFO  AdminTest - ========== Starting Add User Content Test ==========
+2026-08-28 22:23:05 INFO  AdminTest - Initializing Login Page
+2026-08-28 22:23:05 INFO  AdminTest - Initializing Admin Page
+2026-08-28 22:23:05 INFO  AdminTest - Logging in with valid credentials for user: Admin
+2026-08-28 22:23:07 INFO  PIM_Test - Clicking Add Employee button
+2026-08-28 22:23:07 INFO  AdminTest - Navigating to Admin page
+2026-08-28 22:23:08 INFO  PIM_Test - Verifying that the First Name input field is displayed
+2026-08-28 22:23:08 INFO  LoginTest - ========== Starting Invalid Credentials Login Test ==========
+2026-08-28 22:23:08 INFO  LoginTest - Initializing Login Page
+2026-08-28 22:23:08 INFO  LoginTest - Attempting login with invalid credentials for user: wrong_user
+2026-08-28 22:23:08 INFO  PIM_Test - First Name input field verification passed
+2026-08-28 22:23:08 INFO  PIM_Test - Verifying that the Last Name input field is displayed
+2026-08-28 22:23:08 INFO  PIM_Test - Last Name input field verification passed
+2026-08-28 22:23:08 INFO  PIM_Test - Verifying that the current URL contains the Add Employee URL extension
+2026-08-28 22:23:08 INFO  PIM_Test - Add Employee URL verification passed
+2026-08-28 22:23:08 INFO  PIM_Test - ========== Add Employee Page Test Passed ==========
+2026-08-28 22:23:09 INFO  AdminTest - Opening User Management menu
+2026-08-28 22:23:09 INFO  AdminTest - Opening Users page
+2026-08-28 22:23:10 INFO  LoginTest - Verifying that the current URL contains the Login URL extension
+2026-08-28 22:23:10 INFO  LoginTest - Login URL verification passed
+2026-08-28 22:23:10 INFO  LoginTest - Verifying that the invalid credentials error message is displayed
+2026-08-28 22:23:10 INFO  AdminTest - Clicking Add button to open Add User page
+2026-08-28 22:23:10 INFO  LoginTest - Invalid credentials error message verification passed
+2026-08-28 22:23:10 INFO  LoginTest - ========== Invalid Credentials Login Test Passed ==========
+2026-08-28 22:23:11 INFO  AdminTest - Verifying that the User Role dropdown is displayed
+2026-08-28 22:23:11 INFO  PIM_Test - ========== Starting Add Employee Empty First Name Test ==========
+2026-08-28 22:23:11 INFO  PIM_Test - Initializing Login Page
+2026-08-28 22:23:11 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 22:23:11 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 22:23:11 INFO  AdminTest - User Role dropdown verification passed
+2026-08-28 22:23:11 INFO  AdminTest - Verifying that the Employee Name field is displayed
+2026-08-28 22:23:11 INFO  AdminTest - Employee Name field verification passed
+2026-08-28 22:23:11 INFO  AdminTest - Verifying that the Username field is displayed
+2026-08-28 22:23:11 INFO  AdminTest - Username field verification passed
+2026-08-28 22:23:11 INFO  AdminTest - Verifying that the Password field is displayed
+2026-08-28 22:23:11 INFO  AdminTest - Password field verification passed
+2026-08-28 22:23:11 INFO  AdminTest - ========== Add User Content Test Passed ==========
+2026-08-28 22:23:13 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 22:23:13 INFO  LoginTest - ========== Starting Successful Login Test ==========
+2026-08-28 22:23:13 INFO  LoginTest - Initializing Login Page
+2026-08-28 22:23:13 INFO  LoginTest - Attempting login with valid credentials for user: Admin
+2026-08-28 22:23:14 INFO  PIM_Test - Clicking Add Employee button
+2026-08-28 22:23:15 INFO  LoginTest - Verifying that the current URL contains the Dashboard URL extension
+2026-08-28 22:23:15 INFO  LoginTest - Dashboard URL verification passed
+2026-08-28 22:23:15 INFO  LoginTest - Verifying that the Dashboard header is displayed
+2026-08-28 22:23:15 INFO  DashboardTest - ========== Starting OrangeHRM Footer Link Test ==========
+2026-08-28 22:23:15 INFO  DashboardTest - Initializing Login Page
+2026-08-28 22:23:15 INFO  DashboardTest - Initializing Dashboard Page
+2026-08-28 22:23:15 INFO  DashboardTest - Logging in with valid credentials for user: Admin
+2026-08-28 22:23:15 INFO  LoginTest - Dashboard header verification passed
+2026-08-28 22:23:15 INFO  LoginTest - ========== Successful Login Test Passed ==========
+2026-08-28 22:23:15 INFO  PIM_Test - Entering last name: Mohsen
+2026-08-28 22:23:16 INFO  PIM_Test - Clicking Save button without entering first name
+2026-08-28 22:23:16 INFO  PIM_Test - Verifying that the required message is displayed under the First Name field
+2026-08-28 22:23:17 INFO  DashboardTest - Scrolling to the footer
+2026-08-28 22:23:17 INFO  DashboardTest - Verifying that the footer contains 'OrangeHRM, Inc'
+2026-08-28 22:23:17 INFO  DashboardTest - Footer content verification passed
+2026-08-28 22:23:17 INFO  DashboardTest - Storing the original browser window handle
+2026-08-28 22:23:17 INFO  DashboardTest - Clicking the OrangeHRM footer link
+2026-08-28 22:23:17 INFO  PIM_Test - First Name required message verification passed
+2026-08-28 22:23:17 INFO  PIM_Test - ========== Add Employee Empty First Name Test Passed ==========
+2026-08-28 22:23:17 INFO  DashboardTest - Switching to the newly opened OrangeHRM tab
+2026-08-28 22:23:17 INFO  DashboardTest - Verifying that the new tab URL contains 'orangehrm.com'
+2026-08-28 22:23:21 INFO  PIM_Test - ========== Starting End-to-End Employee Test ==========
+2026-08-28 22:23:21 INFO  PIM_Test - Initializing Login Page
+2026-08-28 22:23:21 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 22:23:21 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 22:23:22 INFO  DashboardTest - OrangeHRM URL verification passed
+2026-08-28 22:23:22 INFO  DashboardTest - Closing the OrangeHRM tab
+2026-08-28 22:23:22 INFO  DashboardTest - Switching back to the original browser window
+2026-08-28 22:23:22 INFO  DashboardTest - ========== OrangeHRM Footer Link Test Passed ==========
+2026-08-28 22:23:22 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 22:23:23 INFO  PIM_Test - Clicking Add Employee button
+2026-08-28 22:23:24 INFO  DashboardTest - ========== Starting Dashboard Sidebar Menu Test ==========
+2026-08-28 22:23:24 INFO  DashboardTest - Initializing Login Page
+2026-08-28 22:23:24 INFO  DashboardTest - Initializing Dashboard Page
+2026-08-28 22:23:24 INFO  DashboardTest - Logging in with valid credentials for user: Admin
+2026-08-28 22:23:24 INFO  PIM_Test - Entering first name: Yousef
+2026-08-28 22:23:25 INFO  PIM_Test - Entering last name: Mohsen
+2026-08-28 22:23:25 INFO  PIM_Test - Saving new employee: Yousef Mohsen
+2026-08-28 22:23:25 INFO  PIM_Test - Navigating back to PIM employee list
+2026-08-28 22:23:26 INFO  DashboardTest - Verifying that the Admin menu is displayed
+2026-08-28 22:23:26 INFO  PIM_Test - Searching for newly created employee: Yousef Mohsen
+2026-08-28 22:23:26 INFO  DashboardTest - Admin menu verification passed
+2026-08-28 22:23:26 INFO  DashboardTest - Verifying that the PIM menu is displayed
+2026-08-28 22:23:26 INFO  DashboardTest - PIM menu verification passed
+2026-08-28 22:23:26 INFO  DashboardTest - Verifying that the Leave menu is displayed
+2026-08-28 22:23:26 INFO  DashboardTest - Leave menu verification passed
+2026-08-28 22:23:26 INFO  DashboardTest - Verifying that the Time menu is displayed
+2026-08-28 22:23:26 INFO  DashboardTest - Time menu verification passed
+2026-08-28 22:23:26 INFO  DashboardTest - Verifying that the Recruitment menu is displayed
+2026-08-28 22:23:26 INFO  DashboardTest - Recruitment menu verification passed
+2026-08-28 22:23:26 INFO  DashboardTest - Verifying that the My Info menu is displayed
+2026-08-28 22:23:26 INFO  DashboardTest - My Info menu verification passed
+2026-08-28 22:23:26 INFO  DashboardTest - Verifying that the Performance menu is displayed
+2026-08-28 22:23:26 INFO  DashboardTest - Performance menu verification passed
+2026-08-28 22:23:26 INFO  DashboardTest - Verifying that the Dashboard menu is displayed
+2026-08-28 22:23:27 INFO  DashboardTest - Dashboard menu verification passed
+2026-08-28 22:23:27 INFO  DashboardTest - Verifying that the Directory menu is displayed
+2026-08-28 22:23:27 INFO  DashboardTest - Directory menu verification passed
+2026-08-28 22:23:27 INFO  DashboardTest - ========== Dashboard Sidebar Menu Test Passed ==========
+2026-08-28 22:23:27 INFO  PIM_Test - Clicking Search button
+2026-08-28 22:23:27 INFO  PIM_Test - Verifying that the newly created employee is displayed in the search results
+2026-08-28 22:23:27 INFO  PIM_Test - Newly created employee search verification passed
+2026-08-28 22:23:27 INFO  PIM_Test - ========== End-to-End Employee Test Passed ==========
+2026-08-28 22:23:30 INFO  PIM_Test - ========== Starting Existing Employee Search Test ==========
+2026-08-28 22:23:30 INFO  PIM_Test - Initializing Login Page
+2026-08-28 22:23:30 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 22:23:30 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 22:23:32 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 22:23:33 INFO  PIM_Test - Searching for existing employee: Existing Employee
+2026-08-28 22:23:33 INFO  PIM_Test - Clicking Search button
+2026-08-28 22:23:33 INFO  PIM_Test - Verifying that the searched employee is displayed in the results
+2026-08-28 22:23:34 INFO  PIM_Test - Existing employee search verification passed
+2026-08-28 22:23:34 INFO  PIM_Test - ========== Existing Employee Search Test Passed ==========
+2026-08-28 22:23:36 INFO  PIM_Test - ========== Starting Non-Existing Employee Search Test ==========
+2026-08-28 22:23:36 INFO  PIM_Test - Initializing Login Page
+2026-08-28 22:23:36 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 22:23:36 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 22:23:38 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 22:23:39 INFO  PIM_Test - Searching for non-existing employee: wrong wrong
+2026-08-28 22:23:40 INFO  PIM_Test - Clicking Search button
+2026-08-28 22:23:40 INFO  PIM_Test - Verifying that the 'No Records Found' message is displayed
+2026-08-28 22:23:41 INFO  PIM_Test - No Records Found message verification passed
+2026-08-28 22:23:41 INFO  PIM_Test - ========== Non-Existing Employee Search Test Passed ==========
+2026-08-28 22:37:50 INFO  PIM_Test - ========== Starting Add Employee Page Test ==========
+2026-08-28 22:37:50 INFO  PIM_Test - Initializing Login Page
+2026-08-28 22:37:50 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 22:37:50 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 22:37:51 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 22:37:51 INFO  LoginTest - ========== Starting Empty Fields Login Test ==========
+2026-08-28 22:37:51 INFO  LoginTest - Initializing Login Page
+2026-08-28 22:37:51 INFO  LoginTest - Attempting login with empty username and password fields
+2026-08-28 22:37:51 INFO  AdminTest - ========== Starting Add User Content Test ==========
+2026-08-28 22:37:51 INFO  AdminTest - Initializing Login Page
+2026-08-28 22:37:51 INFO  AdminTest - Initializing Admin Page
+2026-08-28 22:37:51 INFO  AdminTest - Logging in with valid credentials for user: Admin
+2026-08-28 22:37:52 INFO  LoginTest - Verifying that the current URL contains the Login URL extension
+2026-08-28 22:37:52 INFO  LoginTest - Login URL verification passed
+2026-08-28 22:37:52 INFO  LoginTest - Verifying username required validation message
+2026-08-28 22:37:52 INFO  LoginTest - Username required validation message verification passed
+2026-08-28 22:37:52 INFO  LoginTest - Verifying password required validation message
+2026-08-28 22:37:52 INFO  LoginTest - Password required validation message verification passed
+2026-08-28 22:37:52 INFO  LoginTest - ========== Empty Fields Login Test Passed ==========
+2026-08-28 22:37:52 INFO  AdminTest - Navigating to Admin page
+2026-08-28 22:37:53 INFO  PIM_Test - Clicking Add Employee button
+2026-08-28 22:37:54 INFO  PIM_Test - Verifying that the First Name input field is displayed
+2026-08-28 22:37:54 INFO  LoginTest - ========== Starting Invalid Credentials Login Test ==========
+2026-08-28 22:37:54 INFO  LoginTest - Initializing Login Page
+2026-08-28 22:37:54 INFO  LoginTest - Attempting login with invalid credentials for user: wrong_user
+2026-08-28 22:37:55 INFO  AdminTest - Opening User Management menu
+2026-08-28 22:37:55 INFO  PIM_Test - First Name input field verification passed
+2026-08-28 22:37:55 INFO  PIM_Test - Verifying that the Last Name input field is displayed
+2026-08-28 22:37:55 INFO  PIM_Test - Last Name input field verification passed
+2026-08-28 22:37:55 INFO  PIM_Test - Verifying that the current URL contains the Add Employee URL extension
+2026-08-28 22:37:55 INFO  PIM_Test - Add Employee URL verification passed
+2026-08-28 22:37:55 INFO  PIM_Test - ========== Add Employee Page Test Passed ==========
+2026-08-28 22:37:55 INFO  AdminTest - Opening Users page
+2026-08-28 22:37:55 INFO  LoginTest - Verifying that the current URL contains the Login URL extension
+2026-08-28 22:37:56 INFO  AdminTest - Clicking Add button to open Add User page
+2026-08-28 22:37:56 INFO  LoginTest - Login URL verification passed
+2026-08-28 22:37:56 INFO  LoginTest - Verifying that the invalid credentials error message is displayed
+2026-08-28 22:37:56 INFO  LoginTest - Invalid credentials error message verification passed
+2026-08-28 22:37:56 INFO  LoginTest - ========== Invalid Credentials Login Test Passed ==========
+2026-08-28 22:37:57 INFO  AdminTest - Verifying that the User Role dropdown is displayed
+2026-08-28 22:37:57 INFO  AdminTest - User Role dropdown verification passed
+2026-08-28 22:37:57 INFO  AdminTest - Verifying that the Employee Name field is displayed
+2026-08-28 22:37:57 INFO  AdminTest - Employee Name field verification passed
+2026-08-28 22:37:57 INFO  AdminTest - Verifying that the Username field is displayed
+2026-08-28 22:37:57 INFO  PIM_Test - ========== Starting Add Employee Empty First Name Test ==========
+2026-08-28 22:37:57 INFO  PIM_Test - Initializing Login Page
+2026-08-28 22:37:57 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 22:37:57 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 22:37:57 INFO  AdminTest - Username field verification passed
+2026-08-28 22:37:57 INFO  AdminTest - Verifying that the Password field is displayed
+2026-08-28 22:37:57 INFO  AdminTest - Password field verification passed
+2026-08-28 22:37:57 INFO  AdminTest - ========== Add User Content Test Passed ==========
+2026-08-28 22:37:58 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 22:37:59 INFO  LoginTest - ========== Starting Successful Login Test ==========
+2026-08-28 22:37:59 INFO  LoginTest - Initializing Login Page
+2026-08-28 22:37:59 INFO  LoginTest - Attempting login with valid credentials for user: Admin
+2026-08-28 22:38:00 INFO  LoginTest - Verifying that the current URL contains the Dashboard URL extension
+2026-08-28 22:38:01 INFO  DashboardTest - ========== Starting OrangeHRM Footer Link Test ==========
+2026-08-28 22:38:01 INFO  DashboardTest - Initializing Login Page
+2026-08-28 22:38:01 INFO  DashboardTest - Initializing Dashboard Page
+2026-08-28 22:38:01 INFO  DashboardTest - Logging in with valid credentials for user: Admin
+2026-08-28 22:38:01 INFO  PIM_Test - Clicking Add Employee button
+2026-08-28 22:38:01 INFO  LoginTest - Dashboard URL verification passed
+2026-08-28 22:38:01 INFO  LoginTest - Verifying that the Dashboard header is displayed
+2026-08-28 22:38:01 INFO  DashboardTest - Scrolling to the footer
+2026-08-28 22:38:01 INFO  LoginTest - Dashboard header verification passed
+2026-08-28 22:38:01 INFO  LoginTest - ========== Successful Login Test Passed ==========
+2026-08-28 22:38:02 INFO  PIM_Test - Entering last name: Mohsen
+2026-08-28 22:38:02 INFO  PIM_Test - Clicking Save button without entering first name
+2026-08-28 22:38:03 INFO  PIM_Test - Verifying that the required message is displayed under the First Name field
+2026-08-28 22:38:03 INFO  DashboardTest - Verifying that the footer contains 'OrangeHRM, Inc'
+2026-08-28 22:38:03 INFO  DashboardTest - Footer content verification passed
+2026-08-28 22:38:03 INFO  DashboardTest - Storing the original browser window handle
+2026-08-28 22:38:03 INFO  DashboardTest - Clicking the OrangeHRM footer link
+2026-08-28 22:38:03 INFO  DashboardTest - Switching to the newly opened OrangeHRM tab
+2026-08-28 22:38:03 INFO  DashboardTest - Verifying that the new tab URL contains 'orangehrm.com'
+2026-08-28 22:38:04 INFO  PIM_Test - First Name required message verification passed
+2026-08-28 22:38:04 INFO  PIM_Test - ========== Add Employee Empty First Name Test Passed ==========
+2026-08-28 22:38:07 INFO  PIM_Test - ========== Starting End-to-End Employee Test ==========
+2026-08-28 22:38:07 INFO  PIM_Test - Initializing Login Page
+2026-08-28 22:38:07 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 22:38:07 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 22:38:07 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 22:38:07 INFO  DashboardTest - OrangeHRM URL verification passed
+2026-08-28 22:38:07 INFO  DashboardTest - Closing the OrangeHRM tab
+2026-08-28 22:38:07 INFO  DashboardTest - Switching back to the original browser window
+2026-08-28 22:38:07 INFO  DashboardTest - ========== OrangeHRM Footer Link Test Passed ==========
+2026-08-28 22:38:09 INFO  PIM_Test - Clicking Add Employee button
+2026-08-28 22:38:10 INFO  PIM_Test - Entering first name: Yousef
+2026-08-28 22:38:10 INFO  DashboardTest - ========== Starting Dashboard Sidebar Menu Test ==========
+2026-08-28 22:38:10 INFO  DashboardTest - Initializing Login Page
+2026-08-28 22:38:10 INFO  DashboardTest - Initializing Dashboard Page
+2026-08-28 22:38:10 INFO  DashboardTest - Logging in with valid credentials for user: Admin
+2026-08-28 22:38:11 INFO  PIM_Test - Entering last name: Mohsen
+2026-08-28 22:38:11 INFO  PIM_Test - Saving new employee: Yousef Mohsen
+2026-08-28 22:38:11 INFO  PIM_Test - Navigating back to PIM employee list
+2026-08-28 22:38:11 INFO  DashboardTest - Verifying that the Admin menu is displayed
+2026-08-28 22:38:12 INFO  PIM_Test - Searching for newly created employee: Yousef Mohsen
+2026-08-28 22:38:12 INFO  PIM_Test - Clicking Search button
+2026-08-28 22:38:12 INFO  PIM_Test - Verifying that the newly created employee is displayed in the search results
+2026-08-28 22:38:12 INFO  DashboardTest - Admin menu verification passed
+2026-08-28 22:38:12 INFO  DashboardTest - Verifying that the PIM menu is displayed
+2026-08-28 22:38:12 INFO  DashboardTest - PIM menu verification passed
+2026-08-28 22:38:12 INFO  DashboardTest - Verifying that the Leave menu is displayed
+2026-08-28 22:38:12 INFO  DashboardTest - Leave menu verification passed
+2026-08-28 22:38:12 INFO  DashboardTest - Verifying that the Time menu is displayed
+2026-08-28 22:38:12 INFO  DashboardTest - Time menu verification passed
+2026-08-28 22:38:12 INFO  DashboardTest - Verifying that the Recruitment menu is displayed
+2026-08-28 22:38:12 INFO  DashboardTest - Recruitment menu verification passed
+2026-08-28 22:38:12 INFO  DashboardTest - Verifying that the My Info menu is displayed
+2026-08-28 22:38:12 INFO  DashboardTest - My Info menu verification passed
+2026-08-28 22:38:12 INFO  DashboardTest - Verifying that the Performance menu is displayed
+2026-08-28 22:38:12 INFO  DashboardTest - Performance menu verification passed
+2026-08-28 22:38:12 INFO  DashboardTest - Verifying that the Dashboard menu is displayed
+2026-08-28 22:38:12 INFO  DashboardTest - Dashboard menu verification passed
+2026-08-28 22:38:12 INFO  DashboardTest - Verifying that the Directory menu is displayed
+2026-08-28 22:38:13 INFO  DashboardTest - Directory menu verification passed
+2026-08-28 22:38:13 INFO  DashboardTest - ========== Dashboard Sidebar Menu Test Passed ==========
+2026-08-28 22:38:13 INFO  PIM_Test - Newly created employee search verification passed
+2026-08-28 22:38:13 INFO  PIM_Test - ========== End-to-End Employee Test Passed ==========
+2026-08-28 22:38:15 INFO  PIM_Test - ========== Starting Existing Employee Search Test ==========
+2026-08-28 22:38:15 INFO  PIM_Test - Initializing Login Page
+2026-08-28 22:38:15 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 22:38:15 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 22:38:16 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 22:38:18 INFO  PIM_Test - Searching for existing employee: Existing Employee
+2026-08-28 22:38:19 INFO  PIM_Test - Clicking Search button
+2026-08-28 22:38:19 INFO  PIM_Test - Verifying that the searched employee is displayed in the results
+2026-08-28 22:38:19 INFO  PIM_Test - Existing employee search verification passed
+2026-08-28 22:38:19 INFO  PIM_Test - ========== Existing Employee Search Test Passed ==========
+2026-08-28 22:38:22 INFO  PIM_Test - ========== Starting Non-Existing Employee Search Test ==========
+2026-08-28 22:38:22 INFO  PIM_Test - Initializing Login Page
+2026-08-28 22:38:22 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 22:38:22 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 22:38:23 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 22:38:24 INFO  PIM_Test - Searching for non-existing employee: wrong wrong
+2026-08-28 22:38:25 INFO  PIM_Test - Clicking Search button
+2026-08-28 22:38:25 INFO  PIM_Test - Verifying that the 'No Records Found' message is displayed
+2026-08-28 22:38:26 INFO  PIM_Test - No Records Found message verification passed
+2026-08-28 22:38:26 INFO  PIM_Test - ========== Non-Existing Employee Search Test Passed ==========
+2026-08-28 22:47:41 INFO  PIM_Test - ========== Starting Add Employee Page Test ==========
+2026-08-28 22:47:41 INFO  PIM_Test - Initializing Login Page
+2026-08-28 22:47:41 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 22:47:41 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 22:47:42 INFO  LoginTest - ========== Starting Empty Fields Login Test ==========
+2026-08-28 22:47:42 INFO  LoginTest - Initializing Login Page
+2026-08-28 22:47:42 INFO  LoginTest - Attempting login with empty username and password fields
+2026-08-28 22:47:43 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 22:47:43 INFO  LoginTest - Verifying that the current URL contains the Login URL extension
+2026-08-28 22:47:43 INFO  LoginTest - Login URL verification passed
+2026-08-28 22:47:43 INFO  LoginTest - Verifying username required validation message
+2026-08-28 22:47:43 INFO  AdminTest - ========== Starting Add User Content Test ==========
+2026-08-28 22:47:43 INFO  AdminTest - Initializing Login Page
+2026-08-28 22:47:43 INFO  AdminTest - Initializing Admin Page
+2026-08-28 22:47:43 INFO  LoginTest - Username required validation message verification passed
+2026-08-28 22:47:43 INFO  LoginTest - Verifying password required validation message
+2026-08-28 22:47:43 INFO  AdminTest - Logging in with valid credentials for user: Admin
+2026-08-28 22:47:43 INFO  LoginTest - Password required validation message verification passed
+2026-08-28 22:47:43 INFO  LoginTest - ========== Empty Fields Login Test Passed ==========
+2026-08-28 22:47:44 INFO  PIM_Test - Clicking Add Employee button
+2026-08-28 22:47:45 INFO  AdminTest - Navigating to Admin page
+2026-08-28 22:47:45 INFO  PIM_Test - Verifying that the First Name input field is displayed
+2026-08-28 22:47:45 INFO  PIM_Test - First Name input field verification passed
+2026-08-28 22:47:45 INFO  PIM_Test - Verifying that the Last Name input field is displayed
+2026-08-28 22:47:45 INFO  PIM_Test - Last Name input field verification passed
+2026-08-28 22:47:45 INFO  PIM_Test - Verifying that the current URL contains the Add Employee URL extension
+2026-08-28 22:47:45 INFO  PIM_Test - Add Employee URL verification passed
+2026-08-28 22:47:45 INFO  PIM_Test - ========== Add Employee Page Test Passed ==========
+2026-08-28 22:47:46 INFO  LoginTest - ========== Starting Invalid Credentials Login Test ==========
+2026-08-28 22:47:46 INFO  LoginTest - Initializing Login Page
+2026-08-28 22:47:46 INFO  LoginTest - Attempting login with invalid credentials for user: wrong_user
+2026-08-28 22:47:46 INFO  AdminTest - Opening User Management menu
+2026-08-28 22:47:47 INFO  AdminTest - Opening Users page
+2026-08-28 22:47:47 INFO  AdminTest - Clicking Add button to open Add User page
+2026-08-28 22:47:47 INFO  LoginTest - Verifying that the current URL contains the Login URL extension
+2026-08-28 22:47:47 INFO  LoginTest - Login URL verification passed
+2026-08-28 22:47:47 INFO  LoginTest - Verifying that the invalid credentials error message is displayed
+2026-08-28 22:47:48 INFO  LoginTest - Invalid credentials error message verification passed
+2026-08-28 22:47:48 INFO  LoginTest - ========== Invalid Credentials Login Test Passed ==========
+2026-08-28 22:47:48 INFO  AdminTest - Verifying that the User Role dropdown is displayed
+2026-08-28 22:47:48 INFO  PIM_Test - ========== Starting Add Employee Empty First Name Test ==========
+2026-08-28 22:47:48 INFO  PIM_Test - Initializing Login Page
+2026-08-28 22:47:48 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 22:47:48 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 22:47:49 INFO  AdminTest - User Role dropdown verification passed
+2026-08-28 22:47:49 INFO  AdminTest - Verifying that the Employee Name field is displayed
+2026-08-28 22:47:49 INFO  AdminTest - Employee Name field verification passed
+2026-08-28 22:47:49 INFO  AdminTest - Verifying that the Username field is displayed
+2026-08-28 22:47:49 INFO  AdminTest - Username field verification passed
+2026-08-28 22:47:49 INFO  AdminTest - Verifying that the Password field is displayed
+2026-08-28 22:47:49 INFO  AdminTest - Password field verification passed
+2026-08-28 22:47:49 INFO  AdminTest - ========== Add User Content Test Passed ==========
+2026-08-28 22:47:50 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 22:47:50 INFO  LoginTest - ========== Starting Successful Login Test ==========
+2026-08-28 22:47:50 INFO  LoginTest - Initializing Login Page
+2026-08-28 22:47:50 INFO  LoginTest - Attempting login with valid credentials for user: Admin
+2026-08-28 22:47:52 INFO  PIM_Test - Clicking Add Employee button
+2026-08-28 22:47:52 INFO  DashboardTest - ========== Starting OrangeHRM Footer Link Test ==========
+2026-08-28 22:47:52 INFO  DashboardTest - Initializing Login Page
+2026-08-28 22:47:52 INFO  DashboardTest - Initializing Dashboard Page
+2026-08-28 22:47:52 INFO  DashboardTest - Logging in with valid credentials for user: Admin
+2026-08-28 22:47:52 INFO  LoginTest - Verifying that the current URL contains the Dashboard URL extension
+2026-08-28 22:47:52 INFO  LoginTest - Dashboard URL verification passed
+2026-08-28 22:47:52 INFO  LoginTest - Verifying that the Dashboard header is displayed
+2026-08-28 22:47:53 INFO  LoginTest - Dashboard header verification passed
+2026-08-28 22:47:53 INFO  LoginTest - ========== Successful Login Test Passed ==========
+2026-08-28 22:47:53 INFO  PIM_Test - Entering last name: Mohsen
+2026-08-28 22:47:54 INFO  PIM_Test - Clicking Save button without entering first name
+2026-08-28 22:47:54 INFO  DashboardTest - Scrolling to the footer
+2026-08-28 22:47:55 INFO  PIM_Test - Verifying that the required message is displayed under the First Name field
+2026-08-28 22:47:55 INFO  DashboardTest - Verifying that the footer contains 'OrangeHRM, Inc'
+2026-08-28 22:47:55 INFO  DashboardTest - Footer content verification passed
+2026-08-28 22:47:55 INFO  DashboardTest - Storing the original browser window handle
+2026-08-28 22:47:55 INFO  DashboardTest - Clicking the OrangeHRM footer link
+2026-08-28 22:47:55 INFO  DashboardTest - Switching to the newly opened OrangeHRM tab
+2026-08-28 22:47:56 INFO  DashboardTest - Verifying that the new tab URL contains 'orangehrm.com'
+2026-08-28 22:47:56 INFO  PIM_Test - First Name required message verification passed
+2026-08-28 22:47:56 INFO  PIM_Test - ========== Add Employee Empty First Name Test Passed ==========
+2026-08-28 22:47:59 INFO  PIM_Test - ========== Starting End-to-End Employee Test ==========
+2026-08-28 22:47:59 INFO  PIM_Test - Initializing Login Page
+2026-08-28 22:47:59 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 22:47:59 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 22:48:00 INFO  DashboardTest - OrangeHRM URL verification passed
+2026-08-28 22:48:00 INFO  DashboardTest - Closing the OrangeHRM tab
+2026-08-28 22:48:00 INFO  DashboardTest - Switching back to the original browser window
+2026-08-28 22:48:00 INFO  DashboardTest - ========== OrangeHRM Footer Link Test Passed ==========
+2026-08-28 22:48:01 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 22:48:03 INFO  DashboardTest - ========== Starting Dashboard Sidebar Menu Test ==========
+2026-08-28 22:48:03 INFO  DashboardTest - Initializing Login Page
+2026-08-28 22:48:03 INFO  DashboardTest - Initializing Dashboard Page
+2026-08-28 22:48:03 INFO  DashboardTest - Logging in with valid credentials for user: Admin
+2026-08-28 22:48:03 INFO  PIM_Test - Clicking Add Employee button
+2026-08-28 22:48:04 INFO  PIM_Test - Entering first name: Yousef
+2026-08-28 22:48:04 INFO  DashboardTest - Verifying that the Admin menu is displayed
+2026-08-28 22:48:04 INFO  PIM_Test - Entering last name: Mohsen
+2026-08-28 22:48:04 INFO  PIM_Test - Saving new employee: Yousef Mohsen
+2026-08-28 22:48:05 INFO  PIM_Test - Navigating back to PIM employee list
+2026-08-28 22:48:05 INFO  DashboardTest - Admin menu verification passed
+2026-08-28 22:48:05 INFO  DashboardTest - Verifying that the PIM menu is displayed
+2026-08-28 22:48:05 INFO  DashboardTest - PIM menu verification passed
+2026-08-28 22:48:05 INFO  DashboardTest - Verifying that the Leave menu is displayed
+2026-08-28 22:48:05 INFO  DashboardTest - Leave menu verification passed
+2026-08-28 22:48:05 INFO  DashboardTest - Verifying that the Time menu is displayed
+2026-08-28 22:48:05 INFO  DashboardTest - Time menu verification passed
+2026-08-28 22:48:05 INFO  DashboardTest - Verifying that the Recruitment menu is displayed
+2026-08-28 22:48:05 INFO  DashboardTest - Recruitment menu verification passed
+2026-08-28 22:48:05 INFO  DashboardTest - Verifying that the My Info menu is displayed
+2026-08-28 22:48:05 INFO  DashboardTest - My Info menu verification passed
+2026-08-28 22:48:05 INFO  DashboardTest - Verifying that the Performance menu is displayed
+2026-08-28 22:48:05 INFO  DashboardTest - Performance menu verification passed
+2026-08-28 22:48:05 INFO  DashboardTest - Verifying that the Dashboard menu is displayed
+2026-08-28 22:48:05 INFO  DashboardTest - Dashboard menu verification passed
+2026-08-28 22:48:05 INFO  DashboardTest - Verifying that the Directory menu is displayed
+2026-08-28 22:48:05 INFO  DashboardTest - Directory menu verification passed
+2026-08-28 22:48:05 INFO  DashboardTest - ========== Dashboard Sidebar Menu Test Passed ==========
+2026-08-28 22:48:05 INFO  PIM_Test - Searching for newly created employee: Yousef Mohsen
+2026-08-28 22:48:06 INFO  PIM_Test - Clicking Search button
+2026-08-28 22:48:06 INFO  PIM_Test - Verifying that the newly created employee is displayed in the search results
+2026-08-28 22:48:07 INFO  PIM_Test - Newly created employee search verification passed
+2026-08-28 22:48:07 INFO  PIM_Test - ========== End-to-End Employee Test Passed ==========
+2026-08-28 22:48:09 INFO  PIM_Test - ========== Starting Existing Employee Search Test ==========
+2026-08-28 22:48:09 INFO  PIM_Test - Initializing Login Page
+2026-08-28 22:48:09 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 22:48:09 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 22:48:11 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 22:48:12 INFO  PIM_Test - Searching for existing employee: Existing Employee
+2026-08-28 22:48:13 INFO  PIM_Test - Clicking Search button
+2026-08-28 22:48:13 INFO  PIM_Test - Verifying that the searched employee is displayed in the results
+2026-08-28 22:48:13 INFO  PIM_Test - Existing employee search verification passed
+2026-08-28 22:48:13 INFO  PIM_Test - ========== Existing Employee Search Test Passed ==========
+2026-08-28 22:48:16 INFO  PIM_Test - ========== Starting Non-Existing Employee Search Test ==========
+2026-08-28 22:48:16 INFO  PIM_Test - Initializing Login Page
+2026-08-28 22:48:16 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 22:48:16 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 22:48:18 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 22:48:19 INFO  PIM_Test - Searching for non-existing employee: wrong wrong
+2026-08-28 22:48:20 INFO  PIM_Test - Clicking Search button
+2026-08-28 22:48:20 INFO  PIM_Test - Verifying that the 'No Records Found' message is displayed
+2026-08-28 22:48:20 INFO  PIM_Test - No Records Found message verification passed
+2026-08-28 22:48:20 INFO  PIM_Test - ========== Non-Existing Employee Search Test Passed ==========
+2026-08-28 22:55:11 INFO  LoginTest - ========== Starting Empty Fields Login Test ==========
+2026-08-28 22:55:11 INFO  LoginTest - Initializing Login Page
+2026-08-28 22:55:11 INFO  LoginTest - Attempting login with empty username and password fields
+2026-08-28 22:55:11 INFO  AdminTest - ========== Starting Add User Content Test ==========
+2026-08-28 22:55:11 INFO  AdminTest - Initializing Login Page
+2026-08-28 22:55:11 INFO  AdminTest - Initializing Admin Page
+2026-08-28 22:55:11 INFO  AdminTest - Logging in with valid credentials for user: Admin
+2026-08-28 22:55:12 INFO  LoginTest - Verifying that the current URL contains the Login URL extension
+2026-08-28 22:55:12 INFO  LoginTest - Login URL verification passed
+2026-08-28 22:55:12 INFO  LoginTest - Verifying username required validation message
+2026-08-28 22:55:12 INFO  LoginTest - Username required validation message verification passed
+2026-08-28 22:55:12 INFO  LoginTest - Verifying password required validation message
+2026-08-28 22:55:12 INFO  LoginTest - Password required validation message verification passed
+2026-08-28 22:55:12 INFO  LoginTest - ========== Empty Fields Login Test Passed ==========
+2026-08-28 22:55:12 INFO  PIM_Test - ========== Starting Add Employee Page Test ==========
+2026-08-28 22:55:12 INFO  PIM_Test - Initializing Login Page
+2026-08-28 22:55:12 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 22:55:12 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 22:55:13 INFO  AdminTest - Navigating to Admin page
+2026-08-28 22:55:14 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 22:55:14 INFO  AdminTest - Opening User Management menu
+2026-08-28 22:55:15 INFO  AdminTest - Opening Users page
+2026-08-28 22:55:15 INFO  LoginTest - ========== Starting Invalid Credentials Login Test ==========
+2026-08-28 22:55:15 INFO  LoginTest - Initializing Login Page
+2026-08-28 22:55:15 INFO  LoginTest - Attempting login with invalid credentials for user: wrong_user
+2026-08-28 22:55:16 INFO  AdminTest - Clicking Add button to open Add User page
+2026-08-28 22:55:16 INFO  PIM_Test - Clicking Add Employee button
+2026-08-28 22:55:17 INFO  AdminTest - Verifying that the User Role dropdown is displayed
+2026-08-28 22:55:17 INFO  LoginTest - Verifying that the current URL contains the Login URL extension
+2026-08-28 22:55:17 INFO  LoginTest - Login URL verification passed
+2026-08-28 22:55:17 INFO  LoginTest - Verifying that the invalid credentials error message is displayed
+2026-08-28 22:55:17 INFO  PIM_Test - Verifying that the First Name input field is displayed
+2026-08-28 22:55:17 INFO  AdminTest - User Role dropdown verification passed
+2026-08-28 22:55:17 INFO  AdminTest - Verifying that the Employee Name field is displayed
+2026-08-28 22:55:17 INFO  AdminTest - Employee Name field verification passed
+2026-08-28 22:55:17 INFO  AdminTest - Verifying that the Username field is displayed
+2026-08-28 22:55:17 INFO  AdminTest - Username field verification passed
+2026-08-28 22:55:17 INFO  AdminTest - Verifying that the Password field is displayed
+2026-08-28 22:55:17 INFO  AdminTest - Password field verification passed
+2026-08-28 22:55:17 INFO  AdminTest - ========== Add User Content Test Passed ==========
+2026-08-28 22:55:17 INFO  LoginTest - Invalid credentials error message verification passed
+2026-08-28 22:55:17 INFO  LoginTest - ========== Invalid Credentials Login Test Passed ==========
+2026-08-28 22:55:17 INFO  PIM_Test - First Name input field verification passed
+2026-08-28 22:55:17 INFO  PIM_Test - Verifying that the Last Name input field is displayed
+2026-08-28 22:55:17 INFO  PIM_Test - Last Name input field verification passed
+2026-08-28 22:55:17 INFO  PIM_Test - Verifying that the current URL contains the Add Employee URL extension
+2026-08-28 22:55:17 INFO  PIM_Test - Add Employee URL verification passed
+2026-08-28 22:55:17 INFO  PIM_Test - ========== Add Employee Page Test Passed ==========
+2026-08-28 22:55:21 INFO  LoginTest - ========== Starting Successful Login Test ==========
+2026-08-28 22:55:21 INFO  LoginTest - Initializing Login Page
+2026-08-28 22:55:21 INFO  LoginTest - Attempting login with valid credentials for user: Admin
+2026-08-28 22:55:23 INFO  LoginTest - Verifying that the current URL contains the Dashboard URL extension
+2026-08-28 22:55:23 INFO  LoginTest - Dashboard URL verification passed
+2026-08-28 22:55:23 INFO  LoginTest - Verifying that the Dashboard header is displayed
+2026-08-28 22:55:23 INFO  LoginTest - Dashboard header verification passed
+2026-08-28 22:55:23 INFO  LoginTest - ========== Successful Login Test Passed ==========
+2026-08-28 22:55:23 INFO  PIM_Test - ========== Starting Add Employee Empty First Name Test ==========
+2026-08-28 22:55:23 INFO  PIM_Test - Initializing Login Page
+2026-08-28 22:55:23 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 22:55:23 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 22:55:24 INFO  DashboardTest - ========== Starting OrangeHRM Footer Link Test ==========
+2026-08-28 22:55:24 INFO  DashboardTest - Initializing Login Page
+2026-08-28 22:55:24 INFO  DashboardTest - Initializing Dashboard Page
+2026-08-28 22:55:24 INFO  DashboardTest - Logging in with valid credentials for user: Admin
+2026-08-28 22:55:25 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 22:55:26 INFO  PIM_Test - Clicking Add Employee button
+2026-08-28 22:55:26 INFO  DashboardTest - Scrolling to the footer
+2026-08-28 22:55:27 INFO  DashboardTest - Verifying that the footer contains 'OrangeHRM, Inc'
+2026-08-28 22:55:27 INFO  DashboardTest - Footer content verification passed
+2026-08-28 22:55:27 INFO  DashboardTest - Storing the original browser window handle
+2026-08-28 22:55:27 INFO  DashboardTest - Clicking the OrangeHRM footer link
+2026-08-28 22:55:27 INFO  DashboardTest - Switching to the newly opened OrangeHRM tab
+2026-08-28 22:55:27 INFO  PIM_Test - Entering last name: Mohsen
+2026-08-28 22:55:27 INFO  DashboardTest - Verifying that the new tab URL contains 'orangehrm.com'
+2026-08-28 22:55:28 INFO  PIM_Test - Clicking Save button without entering first name
+2026-08-28 22:55:28 INFO  PIM_Test - Verifying that the required message is displayed under the First Name field
+2026-08-28 22:55:29 INFO  PIM_Test - First Name required message verification passed
+2026-08-28 22:55:29 INFO  PIM_Test - ========== Add Employee Empty First Name Test Passed ==========
+2026-08-28 22:55:31 INFO  DashboardTest - OrangeHRM URL verification passed
+2026-08-28 22:55:31 INFO  DashboardTest - Closing the OrangeHRM tab
+2026-08-28 22:55:31 INFO  DashboardTest - Switching back to the original browser window
+2026-08-28 22:55:31 INFO  DashboardTest - ========== OrangeHRM Footer Link Test Passed ==========
+2026-08-28 22:55:32 INFO  PIM_Test - ========== Starting End-to-End Employee Test ==========
+2026-08-28 22:55:32 INFO  PIM_Test - Initializing Login Page
+2026-08-28 22:55:32 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 22:55:32 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 22:55:34 INFO  DashboardTest - ========== Starting Dashboard Sidebar Menu Test ==========
+2026-08-28 22:55:34 INFO  DashboardTest - Initializing Login Page
+2026-08-28 22:55:34 INFO  DashboardTest - Initializing Dashboard Page
+2026-08-28 22:55:34 INFO  DashboardTest - Logging in with valid credentials for user: Admin
+2026-08-28 22:55:34 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 22:55:35 INFO  PIM_Test - Clicking Add Employee button
+2026-08-28 22:55:35 INFO  DashboardTest - Verifying that the Admin menu is displayed
+2026-08-28 22:55:36 INFO  DashboardTest - Admin menu verification passed
+2026-08-28 22:55:36 INFO  DashboardTest - Verifying that the PIM menu is displayed
+2026-08-28 22:55:36 INFO  DashboardTest - PIM menu verification passed
+2026-08-28 22:55:36 INFO  DashboardTest - Verifying that the Leave menu is displayed
+2026-08-28 22:55:36 INFO  PIM_Test - Entering first name: Yousef
+2026-08-28 22:55:36 INFO  DashboardTest - Leave menu verification passed
+2026-08-28 22:55:36 INFO  DashboardTest - Verifying that the Time menu is displayed
+2026-08-28 22:55:36 INFO  DashboardTest - Time menu verification passed
+2026-08-28 22:55:36 INFO  DashboardTest - Verifying that the Recruitment menu is displayed
+2026-08-28 22:55:36 INFO  DashboardTest - Recruitment menu verification passed
+2026-08-28 22:55:36 INFO  DashboardTest - Verifying that the My Info menu is displayed
+2026-08-28 22:55:36 INFO  DashboardTest - My Info menu verification passed
+2026-08-28 22:55:36 INFO  DashboardTest - Verifying that the Performance menu is displayed
+2026-08-28 22:55:36 INFO  DashboardTest - Performance menu verification passed
+2026-08-28 22:55:36 INFO  DashboardTest - Verifying that the Dashboard menu is displayed
+2026-08-28 22:55:36 INFO  DashboardTest - Dashboard menu verification passed
+2026-08-28 22:55:36 INFO  DashboardTest - Verifying that the Directory menu is displayed
+2026-08-28 22:55:36 INFO  DashboardTest - Directory menu verification passed
+2026-08-28 22:55:36 INFO  DashboardTest - ========== Dashboard Sidebar Menu Test Passed ==========
+2026-08-28 22:55:36 INFO  PIM_Test - Entering last name: Mohsen
+2026-08-28 22:55:37 INFO  PIM_Test - Saving new employee: Yousef Mohsen
+2026-08-28 22:55:37 INFO  PIM_Test - Navigating back to PIM employee list
+2026-08-28 22:55:37 INFO  PIM_Test - Searching for newly created employee: Yousef Mohsen
+2026-08-28 22:55:38 INFO  PIM_Test - Clicking Search button
+2026-08-28 22:55:38 INFO  PIM_Test - Verifying that the newly created employee is displayed in the search results
+2026-08-28 22:55:39 INFO  PIM_Test - Newly created employee search verification passed
+2026-08-28 22:55:39 INFO  PIM_Test - ========== End-to-End Employee Test Passed ==========
+2026-08-28 22:55:41 INFO  PIM_Test - ========== Starting Existing Employee Search Test ==========
+2026-08-28 22:55:41 INFO  PIM_Test - Initializing Login Page
+2026-08-28 22:55:41 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 22:55:41 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 22:55:43 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 22:55:44 INFO  PIM_Test - Searching for existing employee: Existing Employee
+2026-08-28 22:55:45 INFO  PIM_Test - Clicking Search button
+2026-08-28 22:55:45 INFO  PIM_Test - Verifying that the searched employee is displayed in the results
+2026-08-28 22:55:45 INFO  PIM_Test - Existing employee search verification passed
+2026-08-28 22:55:45 INFO  PIM_Test - ========== Existing Employee Search Test Passed ==========
+2026-08-28 22:55:48 INFO  PIM_Test - ========== Starting Non-Existing Employee Search Test ==========
+2026-08-28 22:55:48 INFO  PIM_Test - Initializing Login Page
+2026-08-28 22:55:48 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 22:55:48 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 22:55:49 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 22:55:51 INFO  PIM_Test - Searching for non-existing employee: wrong wrong
+2026-08-28 22:55:51 INFO  PIM_Test - Clicking Search button
+2026-08-28 22:55:51 INFO  PIM_Test - Verifying that the 'No Records Found' message is displayed
+2026-08-28 22:55:52 INFO  PIM_Test - No Records Found message verification passed
+2026-08-28 22:55:52 INFO  PIM_Test - ========== Non-Existing Employee Search Test Passed ==========
+2026-08-28 23:08:57 INFO  AdminTest - ========== Starting Add User Content Test ==========
+2026-08-28 23:08:57 INFO  AdminTest - Initializing Login Page
+2026-08-28 23:08:57 INFO  AdminTest - Initializing Admin Page
+2026-08-28 23:08:57 INFO  AdminTest - Logging in with valid credentials for user: Admin
+2026-08-28 23:08:58 INFO  PIM_Test - ========== Starting Add Employee Page Test ==========
+2026-08-28 23:08:58 INFO  PIM_Test - Initializing Login Page
+2026-08-28 23:08:58 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 23:08:58 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 23:08:58 INFO  LoginTest - ========== Starting Empty Fields Login Test ==========
+2026-08-28 23:08:58 INFO  LoginTest - Initializing Login Page
+2026-08-28 23:08:58 INFO  LoginTest - Attempting login with empty username and password fields
+2026-08-28 23:09:02 INFO  AdminTest - Navigating to Admin page
+2026-08-28 23:09:04 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 23:09:05 INFO  AdminTest - Opening User Management menu
+2026-08-28 23:09:06 INFO  AdminTest - Opening Users page
+2026-08-28 23:09:07 INFO  AdminTest - Clicking Add button to open Add User page
+2026-08-28 23:09:09 INFO  AdminTest - Verifying that the User Role dropdown is displayed
+2026-08-28 23:09:09 INFO  AdminTest - User Role dropdown verification passed
+2026-08-28 23:09:09 INFO  AdminTest - Verifying that the Employee Name field is displayed
+2026-08-28 23:09:09 INFO  AdminTest - Employee Name field verification passed
+2026-08-28 23:09:09 INFO  AdminTest - Verifying that the Username field is displayed
+2026-08-28 23:09:09 INFO  AdminTest - Username field verification passed
+2026-08-28 23:09:09 INFO  AdminTest - Verifying that the Password field is displayed
+2026-08-28 23:09:09 INFO  AdminTest - Password field verification passed
+2026-08-28 23:09:09 INFO  AdminTest - ========== Add User Content Test Passed ==========
+2026-08-28 23:09:10 INFO  PIM_Test - Clicking Add Employee button
+2026-08-28 23:09:12 INFO  PIM_Test - Verifying that the First Name input field is displayed
+2026-08-28 23:09:12 INFO  PIM_Test - First Name input field verification passed
+2026-08-28 23:09:12 INFO  PIM_Test - Verifying that the Last Name input field is displayed
+2026-08-28 23:09:12 INFO  PIM_Test - Last Name input field verification passed
+2026-08-28 23:09:12 INFO  PIM_Test - Verifying that the current URL contains the Add Employee URL extension
+2026-08-28 23:09:12 INFO  PIM_Test - Add Employee URL verification passed
+2026-08-28 23:09:12 INFO  PIM_Test - ========== Add Employee Page Test Passed ==========
+2026-08-28 23:09:13 INFO  DashboardTest - ========== Starting OrangeHRM Footer Link Test ==========
+2026-08-28 23:09:13 INFO  DashboardTest - Initializing Login Page
+2026-08-28 23:09:13 INFO  DashboardTest - Initializing Dashboard Page
+2026-08-28 23:09:13 INFO  DashboardTest - Logging in with valid credentials for user: Admin
+2026-08-28 23:09:14 INFO  LoginTest - ========== Starting Invalid Credentials Login Test ==========
+2026-08-28 23:09:14 INFO  LoginTest - Initializing Login Page
+2026-08-28 23:09:14 INFO  LoginTest - Attempting login with invalid credentials for user: wrong_user
+2026-08-28 23:09:15 INFO  DashboardTest - Scrolling to the footer
+2026-08-28 23:09:15 INFO  DashboardTest - Verifying that the footer contains 'OrangeHRM, Inc'
+2026-08-28 23:09:16 INFO  DashboardTest - Footer content verification passed
+2026-08-28 23:09:16 INFO  DashboardTest - Storing the original browser window handle
+2026-08-28 23:09:16 INFO  DashboardTest - Clicking the OrangeHRM footer link
+2026-08-28 23:09:16 INFO  DashboardTest - Switching to the newly opened OrangeHRM tab
+2026-08-28 23:09:16 INFO  DashboardTest - Verifying that the new tab URL contains 'orangehrm.com'
+2026-08-28 23:09:17 INFO  PIM_Test - ========== Starting Add Employee Empty First Name Test ==========
+2026-08-28 23:09:17 INFO  PIM_Test - Initializing Login Page
+2026-08-28 23:09:17 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 23:09:17 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 23:09:19 INFO  DashboardTest - OrangeHRM URL verification passed
+2026-08-28 23:09:19 INFO  DashboardTest - Closing the OrangeHRM tab
+2026-08-28 23:09:19 INFO  DashboardTest - Switching back to the original browser window
+2026-08-28 23:09:19 INFO  DashboardTest - ========== OrangeHRM Footer Link Test Passed ==========
+2026-08-28 23:09:20 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 23:09:21 INFO  PIM_Test - Clicking Add Employee button
+2026-08-28 23:09:22 INFO  PIM_Test - Entering last name: Mohsen
+2026-08-28 23:09:22 INFO  PIM_Test - Clicking Save button without entering first name
+2026-08-28 23:09:22 INFO  DashboardTest - ========== Starting Dashboard Sidebar Menu Test ==========
+2026-08-28 23:09:22 INFO  DashboardTest - Initializing Login Page
+2026-08-28 23:09:22 INFO  DashboardTest - Initializing Dashboard Page
+2026-08-28 23:09:22 INFO  DashboardTest - Logging in with valid credentials for user: Admin
+2026-08-28 23:09:22 INFO  PIM_Test - Verifying that the required message is displayed under the First Name field
+2026-08-28 23:09:23 INFO  PIM_Test - First Name required message verification passed
+2026-08-28 23:09:23 INFO  PIM_Test - ========== Add Employee Empty First Name Test Passed ==========
+2026-08-28 23:09:25 INFO  DashboardTest - Verifying that the Admin menu is displayed
+2026-08-28 23:09:25 INFO  DashboardTest - Admin menu verification passed
+2026-08-28 23:09:25 INFO  DashboardTest - Verifying that the PIM menu is displayed
+2026-08-28 23:09:25 INFO  DashboardTest - PIM menu verification passed
+2026-08-28 23:09:25 INFO  DashboardTest - Verifying that the Leave menu is displayed
+2026-08-28 23:09:25 INFO  DashboardTest - Leave menu verification passed
+2026-08-28 23:09:25 INFO  DashboardTest - Verifying that the Time menu is displayed
+2026-08-28 23:09:25 INFO  DashboardTest - Time menu verification passed
+2026-08-28 23:09:25 INFO  DashboardTest - Verifying that the Recruitment menu is displayed
+2026-08-28 23:09:25 INFO  DashboardTest - Recruitment menu verification passed
+2026-08-28 23:09:25 INFO  DashboardTest - Verifying that the My Info menu is displayed
+2026-08-28 23:09:25 INFO  DashboardTest - My Info menu verification passed
+2026-08-28 23:09:25 INFO  DashboardTest - Verifying that the Performance menu is displayed
+2026-08-28 23:09:25 INFO  DashboardTest - Performance menu verification passed
+2026-08-28 23:09:25 INFO  DashboardTest - Verifying that the Dashboard menu is displayed
+2026-08-28 23:09:25 INFO  DashboardTest - Dashboard menu verification passed
+2026-08-28 23:09:25 INFO  DashboardTest - Verifying that the Directory menu is displayed
+2026-08-28 23:09:25 INFO  DashboardTest - Directory menu verification passed
+2026-08-28 23:09:25 INFO  DashboardTest - ========== Dashboard Sidebar Menu Test Passed ==========
+2026-08-28 23:09:27 INFO  PIM_Test - ========== Starting End-to-End Employee Test ==========
+2026-08-28 23:09:27 INFO  PIM_Test - Initializing Login Page
+2026-08-28 23:09:27 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 23:09:27 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 23:09:28 INFO  LoginTest - ========== Starting Successful Login Test ==========
+2026-08-28 23:09:28 INFO  LoginTest - Initializing Login Page
+2026-08-28 23:09:28 INFO  LoginTest - Attempting login with valid credentials for user: Admin
+2026-08-28 23:09:30 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 23:09:31 INFO  LoginTest - Verifying that the current URL contains the Dashboard URL extension
+2026-08-28 23:09:31 INFO  LoginTest - Dashboard URL verification passed
+2026-08-28 23:09:31 INFO  LoginTest - Verifying that the Dashboard header is displayed
+2026-08-28 23:09:31 INFO  LoginTest - Dashboard header verification passed
+2026-08-28 23:09:31 INFO  LoginTest - ========== Successful Login Test Passed ==========
+2026-08-28 23:09:31 INFO  PIM_Test - Clicking Add Employee button
+2026-08-28 23:09:32 INFO  PIM_Test - Entering first name: Yousef
+2026-08-28 23:09:32 INFO  PIM_Test - Entering last name: Mohsen
+2026-08-28 23:09:32 INFO  PIM_Test - Saving new employee: Yousef Mohsen
+2026-08-28 23:09:32 INFO  PIM_Test - Navigating back to PIM employee list
+2026-08-28 23:09:34 INFO  PIM_Test - Searching for newly created employee: Yousef Mohsen
+2026-08-28 23:09:34 INFO  PIM_Test - Clicking Search button
+2026-08-28 23:09:34 INFO  PIM_Test - Verifying that the newly created employee is displayed in the search results
+2026-08-28 23:09:47 INFO  PIM_Test - ========== Starting Existing Employee Search Test ==========
+2026-08-28 23:09:47 INFO  PIM_Test - Initializing Login Page
+2026-08-28 23:09:47 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 23:09:47 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 23:09:49 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 23:09:50 INFO  PIM_Test - Searching for existing employee: Existing Employee
+2026-08-28 23:09:50 INFO  PIM_Test - Clicking Search button
+2026-08-28 23:09:50 INFO  PIM_Test - Verifying that the searched employee is displayed in the results
+2026-08-28 23:09:51 INFO  PIM_Test - Existing employee search verification passed
+2026-08-28 23:09:51 INFO  PIM_Test - ========== Existing Employee Search Test Passed ==========
+2026-08-28 23:09:53 INFO  PIM_Test - ========== Starting Non-Existing Employee Search Test ==========
+2026-08-28 23:09:53 INFO  PIM_Test - Initializing Login Page
+2026-08-28 23:09:53 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 23:09:53 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 23:09:56 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 23:09:57 INFO  PIM_Test - Searching for non-existing employee: wrong wrong
+2026-08-28 23:09:57 INFO  PIM_Test - Clicking Search button
+2026-08-28 23:09:57 INFO  PIM_Test - Verifying that the 'No Records Found' message is displayed
+2026-08-28 23:09:58 INFO  PIM_Test - No Records Found message verification passed
+2026-08-28 23:09:58 INFO  PIM_Test - ========== Non-Existing Employee Search Test Passed ==========
+2026-08-28 23:15:15 INFO  AdminTest - ========== Starting Add User Content Test ==========
+2026-08-28 23:15:15 INFO  AdminTest - Initializing Login Page
+2026-08-28 23:15:15 INFO  AdminTest - Initializing Admin Page
+2026-08-28 23:15:15 INFO  AdminTest - Logging in with valid credentials for user: Admin
+2026-08-28 23:15:16 INFO  PIM_Test - ========== Starting Add Employee Page Test ==========
+2026-08-28 23:15:16 INFO  PIM_Test - Initializing Login Page
+2026-08-28 23:15:16 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 23:15:16 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 23:15:17 INFO  LoginTest - ========== Starting Empty Fields Login Test ==========
+2026-08-28 23:15:17 INFO  LoginTest - Initializing Login Page
+2026-08-28 23:15:17 INFO  LoginTest - Attempting login with empty username and password fields
+2026-08-28 23:15:18 INFO  AdminTest - Navigating to Admin page
+2026-08-28 23:15:19 INFO  AdminTest - Opening User Management menu
+2026-08-28 23:15:19 INFO  LoginTest - Verifying that the current URL contains the Login URL extension
+2026-08-28 23:15:19 INFO  LoginTest - Login URL verification passed
+2026-08-28 23:15:19 INFO  LoginTest - Verifying username required validation message
+2026-08-28 23:15:20 INFO  LoginTest - Username required validation message verification passed
+2026-08-28 23:15:20 INFO  LoginTest - Verifying password required validation message
+2026-08-28 23:15:20 INFO  LoginTest - Password required validation message verification passed
+2026-08-28 23:15:20 INFO  LoginTest - ========== Empty Fields Login Test Passed ==========
+2026-08-28 23:15:20 INFO  AdminTest - Opening Users page
+2026-08-28 23:15:20 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 23:15:21 INFO  AdminTest - Clicking Add button to open Add User page
+2026-08-28 23:15:21 INFO  PIM_Test - Clicking Add Employee button
+2026-08-28 23:15:22 INFO  AdminTest - Verifying that the User Role dropdown is displayed
+2026-08-28 23:15:22 INFO  AdminTest - User Role dropdown verification passed
+2026-08-28 23:15:22 INFO  AdminTest - Verifying that the Employee Name field is displayed
+2026-08-28 23:15:22 INFO  AdminTest - Employee Name field verification passed
+2026-08-28 23:15:22 INFO  AdminTest - Verifying that the Username field is displayed
+2026-08-28 23:15:22 INFO  AdminTest - Username field verification passed
+2026-08-28 23:15:22 INFO  AdminTest - Verifying that the Password field is displayed
+2026-08-28 23:15:22 INFO  AdminTest - Password field verification passed
+2026-08-28 23:15:22 INFO  AdminTest - ========== Add User Content Test Passed ==========
+2026-08-28 23:15:22 INFO  LoginTest - ========== Starting Invalid Credentials Login Test ==========
+2026-08-28 23:15:22 INFO  LoginTest - Initializing Login Page
+2026-08-28 23:15:22 INFO  LoginTest - Attempting login with invalid credentials for user: wrong_user
+2026-08-28 23:15:23 INFO  PIM_Test - Verifying that the First Name input field is displayed
+2026-08-28 23:15:23 INFO  PIM_Test - First Name input field verification passed
+2026-08-28 23:15:23 INFO  PIM_Test - Verifying that the Last Name input field is displayed
+2026-08-28 23:15:23 INFO  PIM_Test - Last Name input field verification passed
+2026-08-28 23:15:23 INFO  PIM_Test - Verifying that the current URL contains the Add Employee URL extension
+2026-08-28 23:15:23 INFO  PIM_Test - Add Employee URL verification passed
+2026-08-28 23:15:23 INFO  PIM_Test - ========== Add Employee Page Test Passed ==========
+2026-08-28 23:15:24 INFO  DashboardTest - ========== Starting OrangeHRM Footer Link Test ==========
+2026-08-28 23:15:24 INFO  DashboardTest - Initializing Login Page
+2026-08-28 23:15:24 INFO  DashboardTest - Initializing Dashboard Page
+2026-08-28 23:15:24 INFO  DashboardTest - Logging in with valid credentials for user: Admin
+2026-08-28 23:15:25 INFO  LoginTest - Verifying that the current URL contains the Login URL extension
+2026-08-28 23:15:25 INFO  LoginTest - Login URL verification passed
+2026-08-28 23:15:25 INFO  LoginTest - Verifying that the invalid credentials error message is displayed
+2026-08-28 23:15:25 INFO  LoginTest - Invalid credentials error message verification passed
+2026-08-28 23:15:25 INFO  LoginTest - ========== Invalid Credentials Login Test Passed ==========
+2026-08-28 23:15:26 INFO  PIM_Test - ========== Starting Add Employee Empty First Name Test ==========
+2026-08-28 23:15:26 INFO  PIM_Test - Initializing Login Page
+2026-08-28 23:15:26 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 23:15:26 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 23:15:28 INFO  DashboardTest - Scrolling to the footer
+2026-08-28 23:15:28 INFO  DashboardTest - Verifying that the footer contains 'OrangeHRM, Inc'
+2026-08-28 23:15:28 INFO  DashboardTest - Footer content verification passed
+2026-08-28 23:15:28 INFO  DashboardTest - Storing the original browser window handle
+2026-08-28 23:15:28 INFO  DashboardTest - Clicking the OrangeHRM footer link
+2026-08-28 23:15:28 INFO  DashboardTest - Switching to the newly opened OrangeHRM tab
+2026-08-28 23:15:28 INFO  LoginTest - ========== Starting Successful Login Test ==========
+2026-08-28 23:15:28 INFO  LoginTest - Initializing Login Page
+2026-08-28 23:15:28 INFO  LoginTest - Attempting login with valid credentials for user: Admin
+2026-08-28 23:15:28 INFO  DashboardTest - Verifying that the new tab URL contains 'orangehrm.com'
+2026-08-28 23:15:29 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 23:15:31 INFO  PIM_Test - Clicking Add Employee button
+2026-08-28 23:15:31 INFO  LoginTest - Verifying that the current URL contains the Dashboard URL extension
+2026-08-28 23:15:31 INFO  LoginTest - Dashboard URL verification passed
+2026-08-28 23:15:31 INFO  LoginTest - Verifying that the Dashboard header is displayed
+2026-08-28 23:15:31 INFO  LoginTest - Dashboard header verification passed
+2026-08-28 23:15:31 INFO  LoginTest - ========== Successful Login Test Passed ==========
+2026-08-28 23:15:31 INFO  DashboardTest - OrangeHRM URL verification passed
+2026-08-28 23:15:31 INFO  DashboardTest - Closing the OrangeHRM tab
+2026-08-28 23:15:31 INFO  DashboardTest - Switching back to the original browser window
+2026-08-28 23:15:31 INFO  DashboardTest - ========== OrangeHRM Footer Link Test Passed ==========
+2026-08-28 23:15:32 INFO  PIM_Test - Entering last name: Mohsen
+2026-08-28 23:15:32 INFO  PIM_Test - Clicking Save button without entering first name
+2026-08-28 23:15:32 INFO  PIM_Test - Verifying that the required message is displayed under the First Name field
+2026-08-28 23:15:34 INFO  PIM_Test - First Name required message verification passed
+2026-08-28 23:15:34 INFO  PIM_Test - ========== Add Employee Empty First Name Test Passed ==========
+2026-08-28 23:15:34 INFO  DashboardTest - ========== Starting Dashboard Sidebar Menu Test ==========
+2026-08-28 23:15:34 INFO  DashboardTest - Initializing Login Page
+2026-08-28 23:15:34 INFO  DashboardTest - Initializing Dashboard Page
+2026-08-28 23:15:34 INFO  DashboardTest - Logging in with valid credentials for user: Admin
+2026-08-28 23:15:36 INFO  PIM_Test - ========== Starting End-to-End Employee Test ==========
+2026-08-28 23:15:36 INFO  PIM_Test - Initializing Login Page
+2026-08-28 23:15:36 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 23:15:36 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 23:15:37 INFO  DashboardTest - Verifying that the Admin menu is displayed
+2026-08-28 23:15:37 INFO  DashboardTest - Admin menu verification passed
+2026-08-28 23:15:37 INFO  DashboardTest - Verifying that the PIM menu is displayed
+2026-08-28 23:15:37 INFO  DashboardTest - PIM menu verification passed
+2026-08-28 23:15:37 INFO  DashboardTest - Verifying that the Leave menu is displayed
+2026-08-28 23:15:37 INFO  DashboardTest - Leave menu verification passed
+2026-08-28 23:15:37 INFO  DashboardTest - Verifying that the Time menu is displayed
+2026-08-28 23:15:37 INFO  DashboardTest - Time menu verification passed
+2026-08-28 23:15:37 INFO  DashboardTest - Verifying that the Recruitment menu is displayed
+2026-08-28 23:15:37 INFO  DashboardTest - Recruitment menu verification passed
+2026-08-28 23:15:37 INFO  DashboardTest - Verifying that the My Info menu is displayed
+2026-08-28 23:15:37 INFO  DashboardTest - My Info menu verification passed
+2026-08-28 23:15:37 INFO  DashboardTest - Verifying that the Performance menu is displayed
+2026-08-28 23:15:37 INFO  DashboardTest - Performance menu verification passed
+2026-08-28 23:15:37 INFO  DashboardTest - Verifying that the Dashboard menu is displayed
+2026-08-28 23:15:37 INFO  DashboardTest - Dashboard menu verification passed
+2026-08-28 23:15:37 INFO  DashboardTest - Verifying that the Directory menu is displayed
+2026-08-28 23:15:37 INFO  DashboardTest - Directory menu verification passed
+2026-08-28 23:15:37 INFO  DashboardTest - ========== Dashboard Sidebar Menu Test Passed ==========
+2026-08-28 23:15:39 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 23:15:41 INFO  PIM_Test - Clicking Add Employee button
+2026-08-28 23:15:42 INFO  PIM_Test - Entering first name: Yousef
+2026-08-28 23:15:42 INFO  PIM_Test - Entering last name: Mohsen
+2026-08-28 23:15:42 INFO  PIM_Test - Saving new employee: Yousef Mohsen
+2026-08-28 23:15:43 INFO  PIM_Test - Navigating back to PIM employee list
+2026-08-28 23:15:44 INFO  PIM_Test - Searching for newly created employee: Yousef Mohsen
+2026-08-28 23:15:44 INFO  PIM_Test - Clicking Search button
+2026-08-28 23:15:44 INFO  PIM_Test - Verifying that the newly created employee is displayed in the search results
+2026-08-28 23:15:57 INFO  PIM_Test - ========== Starting Existing Employee Search Test ==========
+2026-08-28 23:15:57 INFO  PIM_Test - Initializing Login Page
+2026-08-28 23:15:57 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 23:15:57 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 23:16:00 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 23:16:02 INFO  PIM_Test - Searching for existing employee: Existing Employee
+2026-08-28 23:16:02 INFO  PIM_Test - Clicking Search button
+2026-08-28 23:16:02 INFO  PIM_Test - Verifying that the searched employee is displayed in the results
+2026-08-28 23:16:03 INFO  PIM_Test - Existing employee search verification passed
+2026-08-28 23:16:03 INFO  PIM_Test - ========== Existing Employee Search Test Passed ==========
+2026-08-28 23:16:05 INFO  PIM_Test - ========== Starting Non-Existing Employee Search Test ==========
+2026-08-28 23:16:05 INFO  PIM_Test - Initializing Login Page
+2026-08-28 23:16:05 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 23:16:05 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 23:16:09 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 23:16:10 INFO  PIM_Test - Searching for non-existing employee: wrong wrong
+2026-08-28 23:16:10 INFO  PIM_Test - Clicking Search button
+2026-08-28 23:16:10 INFO  PIM_Test - Verifying that the 'No Records Found' message is displayed
+2026-08-28 23:16:11 INFO  PIM_Test - No Records Found message verification passed
+2026-08-28 23:16:11 INFO  PIM_Test - ========== Non-Existing Employee Search Test Passed ==========
+2026-08-28 23:17:50 INFO  LoginTest - ========== Starting Empty Fields Login Test ==========
+2026-08-28 23:17:50 INFO  LoginTest - Initializing Login Page
+2026-08-28 23:17:50 INFO  LoginTest - Attempting login with empty username and password fields
+2026-08-28 23:17:50 INFO  AdminTest - ========== Starting Add User Content Test ==========
+2026-08-28 23:17:50 INFO  AdminTest - Initializing Login Page
+2026-08-28 23:17:50 INFO  AdminTest - Initializing Admin Page
+2026-08-28 23:17:50 INFO  AdminTest - Logging in with valid credentials for user: Admin
+2026-08-28 23:17:51 INFO  PIM_Test - ========== Starting Add Employee Page Test ==========
+2026-08-28 23:17:51 INFO  PIM_Test - Initializing Login Page
+2026-08-28 23:17:51 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 23:17:51 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 23:17:53 INFO  LoginTest - Verifying that the current URL contains the Login URL extension
+2026-08-28 23:17:53 INFO  LoginTest - Login URL verification passed
+2026-08-28 23:17:53 INFO  LoginTest - Verifying username required validation message
+2026-08-28 23:17:53 INFO  LoginTest - Username required validation message verification passed
+2026-08-28 23:17:53 INFO  LoginTest - Verifying password required validation message
+2026-08-28 23:17:53 INFO  LoginTest - Password required validation message verification passed
+2026-08-28 23:17:53 INFO  LoginTest - ========== Empty Fields Login Test Passed ==========
+2026-08-28 23:17:54 INFO  AdminTest - Navigating to Admin page
+2026-08-28 23:17:54 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 23:17:55 INFO  PIM_Test - Clicking Add Employee button
+2026-08-28 23:17:55 INFO  AdminTest - Opening User Management menu
+2026-08-28 23:17:55 INFO  AdminTest - Opening Users page
+2026-08-28 23:17:55 INFO  LoginTest - ========== Starting Invalid Credentials Login Test ==========
+2026-08-28 23:17:55 INFO  LoginTest - Initializing Login Page
+2026-08-28 23:17:55 INFO  LoginTest - Attempting login with invalid credentials for user: wrong_user
+2026-08-28 23:17:56 INFO  PIM_Test - Verifying that the First Name input field is displayed
+2026-08-28 23:17:56 INFO  PIM_Test - First Name input field verification passed
+2026-08-28 23:17:56 INFO  PIM_Test - Verifying that the Last Name input field is displayed
+2026-08-28 23:17:56 INFO  PIM_Test - Last Name input field verification passed
+2026-08-28 23:17:56 INFO  PIM_Test - Verifying that the current URL contains the Add Employee URL extension
+2026-08-28 23:17:56 INFO  PIM_Test - Add Employee URL verification passed
+2026-08-28 23:17:56 INFO  PIM_Test - ========== Add Employee Page Test Passed ==========
+2026-08-28 23:17:56 INFO  AdminTest - Clicking Add button to open Add User page
+2026-08-28 23:17:57 INFO  AdminTest - Verifying that the User Role dropdown is displayed
+2026-08-28 23:17:57 INFO  AdminTest - User Role dropdown verification passed
+2026-08-28 23:17:57 INFO  AdminTest - Verifying that the Employee Name field is displayed
+2026-08-28 23:17:57 INFO  AdminTest - Employee Name field verification passed
+2026-08-28 23:17:57 INFO  AdminTest - Verifying that the Username field is displayed
+2026-08-28 23:17:57 INFO  AdminTest - Username field verification passed
+2026-08-28 23:17:57 INFO  AdminTest - Verifying that the Password field is displayed
+2026-08-28 23:17:57 INFO  AdminTest - Password field verification passed
+2026-08-28 23:17:57 INFO  AdminTest - ========== Add User Content Test Passed ==========
+2026-08-28 23:17:58 INFO  LoginTest - Verifying that the current URL contains the Login URL extension
+2026-08-28 23:17:58 INFO  LoginTest - Login URL verification passed
+2026-08-28 23:17:58 INFO  LoginTest - Verifying that the invalid credentials error message is displayed
+2026-08-28 23:17:58 INFO  LoginTest - Invalid credentials error message verification passed
+2026-08-28 23:17:58 INFO  LoginTest - ========== Invalid Credentials Login Test Passed ==========
+2026-08-28 23:17:59 INFO  PIM_Test - ========== Starting Add Employee Empty First Name Test ==========
+2026-08-28 23:17:59 INFO  PIM_Test - Initializing Login Page
+2026-08-28 23:17:59 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 23:17:59 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 23:18:00 INFO  DashboardTest - ========== Starting OrangeHRM Footer Link Test ==========
+2026-08-28 23:18:00 INFO  DashboardTest - Initializing Login Page
+2026-08-28 23:18:00 INFO  DashboardTest - Initializing Dashboard Page
+2026-08-28 23:18:00 INFO  DashboardTest - Logging in with valid credentials for user: Admin
+2026-08-28 23:18:02 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 23:18:03 INFO  PIM_Test - Clicking Add Employee button
+2026-08-28 23:18:04 INFO  PIM_Test - Entering last name: Mohsen
+2026-08-28 23:18:04 INFO  DashboardTest - Scrolling to the footer
+2026-08-28 23:18:04 INFO  DashboardTest - Verifying that the footer contains 'OrangeHRM, Inc'
+2026-08-28 23:18:04 INFO  DashboardTest - Footer content verification passed
+2026-08-28 23:18:04 INFO  DashboardTest - Storing the original browser window handle
+2026-08-28 23:18:04 INFO  DashboardTest - Clicking the OrangeHRM footer link
+2026-08-28 23:18:04 INFO  DashboardTest - Switching to the newly opened OrangeHRM tab
+2026-08-28 23:18:04 INFO  DashboardTest - Verifying that the new tab URL contains 'orangehrm.com'
+2026-08-28 23:18:04 INFO  PIM_Test - Clicking Save button without entering first name
+2026-08-28 23:18:05 INFO  PIM_Test - Verifying that the required message is displayed under the First Name field
+2026-08-28 23:18:06 INFO  PIM_Test - First Name required message verification passed
+2026-08-28 23:18:06 INFO  PIM_Test - ========== Add Employee Empty First Name Test Passed ==========
+2026-08-28 23:18:06 INFO  LoginTest - ========== Starting Successful Login Test ==========
+2026-08-28 23:18:06 INFO  LoginTest - Initializing Login Page
+2026-08-28 23:18:06 INFO  LoginTest - Attempting login with valid credentials for user: Admin
+2026-08-28 23:18:08 INFO  DashboardTest - OrangeHRM URL verification passed
+2026-08-28 23:18:08 INFO  DashboardTest - Closing the OrangeHRM tab
+2026-08-28 23:18:08 INFO  DashboardTest - Switching back to the original browser window
+2026-08-28 23:18:08 INFO  DashboardTest - ========== OrangeHRM Footer Link Test Passed ==========
+2026-08-28 23:18:09 INFO  PIM_Test - ========== Starting End-to-End Employee Test ==========
+2026-08-28 23:18:09 INFO  PIM_Test - Initializing Login Page
+2026-08-28 23:18:09 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 23:18:09 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 23:18:09 INFO  LoginTest - Verifying that the current URL contains the Dashboard URL extension
+2026-08-28 23:18:09 INFO  LoginTest - Dashboard URL verification passed
+2026-08-28 23:18:09 INFO  LoginTest - Verifying that the Dashboard header is displayed
+2026-08-28 23:18:09 INFO  LoginTest - Dashboard header verification passed
+2026-08-28 23:18:09 INFO  LoginTest - ========== Successful Login Test Passed ==========
+2026-08-28 23:18:11 INFO  DashboardTest - ========== Starting Dashboard Sidebar Menu Test ==========
+2026-08-28 23:18:11 INFO  DashboardTest - Initializing Login Page
+2026-08-28 23:18:11 INFO  DashboardTest - Initializing Dashboard Page
+2026-08-28 23:18:11 INFO  DashboardTest - Logging in with valid credentials for user: Admin
+2026-08-28 23:18:12 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 23:18:12 INFO  PIM_Test - Clicking Add Employee button
+2026-08-28 23:18:13 INFO  PIM_Test - Entering first name: Yousef
+2026-08-28 23:18:14 INFO  DashboardTest - Verifying that the Admin menu is displayed
+2026-08-28 23:18:14 INFO  DashboardTest - Admin menu verification passed
+2026-08-28 23:18:14 INFO  DashboardTest - Verifying that the PIM menu is displayed
+2026-08-28 23:18:14 INFO  DashboardTest - PIM menu verification passed
+2026-08-28 23:18:14 INFO  DashboardTest - Verifying that the Leave menu is displayed
+2026-08-28 23:18:14 INFO  DashboardTest - Leave menu verification passed
+2026-08-28 23:18:14 INFO  DashboardTest - Verifying that the Time menu is displayed
+2026-08-28 23:18:14 INFO  DashboardTest - Time menu verification passed
+2026-08-28 23:18:14 INFO  DashboardTest - Verifying that the Recruitment menu is displayed
+2026-08-28 23:18:14 INFO  PIM_Test - Entering last name: Mohsen
+2026-08-28 23:18:14 INFO  DashboardTest - Recruitment menu verification passed
+2026-08-28 23:18:14 INFO  DashboardTest - Verifying that the My Info menu is displayed
+2026-08-28 23:18:14 INFO  DashboardTest - My Info menu verification passed
+2026-08-28 23:18:14 INFO  DashboardTest - Verifying that the Performance menu is displayed
+2026-08-28 23:18:14 INFO  DashboardTest - Performance menu verification passed
+2026-08-28 23:18:14 INFO  DashboardTest - Verifying that the Dashboard menu is displayed
+2026-08-28 23:18:14 INFO  DashboardTest - Dashboard menu verification passed
+2026-08-28 23:18:14 INFO  DashboardTest - Verifying that the Directory menu is displayed
+2026-08-28 23:18:14 INFO  DashboardTest - Directory menu verification passed
+2026-08-28 23:18:14 INFO  DashboardTest - ========== Dashboard Sidebar Menu Test Passed ==========
+2026-08-28 23:18:14 INFO  PIM_Test - Saving new employee: Yousef Mohsen
+2026-08-28 23:18:14 INFO  PIM_Test - Navigating back to PIM employee list
+2026-08-28 23:18:15 INFO  PIM_Test - Searching for newly created employee: Yousef Mohsen
+2026-08-28 23:18:15 INFO  PIM_Test - Clicking Search button
+2026-08-28 23:18:16 INFO  PIM_Test - Verifying that the newly created employee is displayed in the search results
+2026-08-28 23:18:29 INFO  PIM_Test - ========== Starting Existing Employee Search Test ==========
+2026-08-28 23:18:29 INFO  PIM_Test - Initializing Login Page
+2026-08-28 23:18:29 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 23:18:29 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 23:18:32 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 23:18:32 INFO  PIM_Test - Searching for existing employee: Existing Employee
+2026-08-28 23:18:33 INFO  PIM_Test - Clicking Search button
+2026-08-28 23:18:33 INFO  PIM_Test - Verifying that the searched employee is displayed in the results
+2026-08-28 23:18:34 INFO  PIM_Test - Existing employee search verification passed
+2026-08-28 23:18:34 INFO  PIM_Test - ========== Existing Employee Search Test Passed ==========
+2026-08-28 23:18:36 INFO  PIM_Test - ========== Starting Non-Existing Employee Search Test ==========
+2026-08-28 23:18:36 INFO  PIM_Test - Initializing Login Page
+2026-08-28 23:18:36 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 23:18:36 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 23:18:39 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 23:18:40 INFO  PIM_Test - Searching for non-existing employee: wrong wrong
+2026-08-28 23:18:41 INFO  PIM_Test - Clicking Search button
+2026-08-28 23:18:41 INFO  PIM_Test - Verifying that the 'No Records Found' message is displayed
+2026-08-28 23:18:41 INFO  PIM_Test - No Records Found message verification passed
+2026-08-28 23:18:41 INFO  PIM_Test - ========== Non-Existing Employee Search Test Passed ==========
+2026-08-28 23:20:39 INFO  PIM_Test - ========== Starting Add Employee Page Test ==========
+2026-08-28 23:20:39 INFO  PIM_Test - Initializing Login Page
+2026-08-28 23:20:39 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 23:20:39 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 23:20:40 INFO  AdminTest - ========== Starting Add User Content Test ==========
+2026-08-28 23:20:40 INFO  AdminTest - Initializing Login Page
+2026-08-28 23:20:40 INFO  AdminTest - Initializing Admin Page
+2026-08-28 23:20:40 INFO  AdminTest - Logging in with valid credentials for user: Admin
+2026-08-28 23:20:41 INFO  LoginTest - ========== Starting Empty Fields Login Test ==========
+2026-08-28 23:20:41 INFO  LoginTest - Initializing Login Page
+2026-08-28 23:20:41 INFO  LoginTest - Attempting login with empty username and password fields
+2026-08-28 23:20:42 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 23:20:43 INFO  PIM_Test - Clicking Add Employee button
+2026-08-28 23:20:44 INFO  AdminTest - Navigating to Admin page
+2026-08-28 23:20:44 INFO  PIM_Test - Verifying that the First Name input field is displayed
+2026-08-28 23:20:44 INFO  PIM_Test - First Name input field verification passed
+2026-08-28 23:20:44 INFO  PIM_Test - Verifying that the Last Name input field is displayed
+2026-08-28 23:20:44 INFO  PIM_Test - Last Name input field verification passed
+2026-08-28 23:20:44 INFO  PIM_Test - Verifying that the current URL contains the Add Employee URL extension
+2026-08-28 23:20:44 INFO  PIM_Test - Add Employee URL verification passed
+2026-08-28 23:20:44 INFO  PIM_Test - ========== Add Employee Page Test Passed ==========
+2026-08-28 23:20:45 INFO  LoginTest - Verifying that the current URL contains the Login URL extension
+2026-08-28 23:20:45 INFO  LoginTest - Login URL verification passed
+2026-08-28 23:20:45 INFO  LoginTest - Verifying username required validation message
+2026-08-28 23:20:45 INFO  AdminTest - Opening User Management menu
+2026-08-28 23:20:45 INFO  LoginTest - Username required validation message verification passed
+2026-08-28 23:20:45 INFO  LoginTest - Verifying password required validation message
+2026-08-28 23:20:45 INFO  LoginTest - Password required validation message verification passed
+2026-08-28 23:20:45 INFO  LoginTest - ========== Empty Fields Login Test Passed ==========
+2026-08-28 23:20:45 INFO  AdminTest - Opening Users page
+2026-08-28 23:20:46 INFO  AdminTest - Clicking Add button to open Add User page
+2026-08-28 23:20:47 INFO  AdminTest - Verifying that the User Role dropdown is displayed
+2026-08-28 23:20:47 INFO  AdminTest - User Role dropdown verification passed
+2026-08-28 23:20:47 INFO  AdminTest - Verifying that the Employee Name field is displayed
+2026-08-28 23:20:47 INFO  AdminTest - Employee Name field verification passed
+2026-08-28 23:20:47 INFO  AdminTest - Verifying that the Username field is displayed
+2026-08-28 23:20:47 INFO  AdminTest - Username field verification passed
+2026-08-28 23:20:47 INFO  AdminTest - Verifying that the Password field is displayed
+2026-08-28 23:20:47 INFO  AdminTest - Password field verification passed
+2026-08-28 23:20:47 INFO  AdminTest - ========== Add User Content Test Passed ==========
+2026-08-28 23:20:49 INFO  PIM_Test - ========== Starting Add Employee Empty First Name Test ==========
+2026-08-28 23:20:49 INFO  PIM_Test - Initializing Login Page
+2026-08-28 23:20:49 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 23:20:49 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 23:20:50 INFO  DashboardTest - ========== Starting OrangeHRM Footer Link Test ==========
+2026-08-28 23:20:50 INFO  DashboardTest - Initializing Login Page
+2026-08-28 23:20:50 INFO  DashboardTest - Initializing Dashboard Page
+2026-08-28 23:20:50 INFO  DashboardTest - Logging in with valid credentials for user: Admin
+2026-08-28 23:20:53 INFO  DashboardTest - Scrolling to the footer
+2026-08-28 23:20:53 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 23:20:54 INFO  DashboardTest - Verifying that the footer contains 'OrangeHRM, Inc'
+2026-08-28 23:20:54 INFO  DashboardTest - Footer content verification passed
+2026-08-28 23:20:54 INFO  DashboardTest - Storing the original browser window handle
+2026-08-28 23:20:54 INFO  DashboardTest - Clicking the OrangeHRM footer link
+2026-08-28 23:20:54 INFO  DashboardTest - Switching to the newly opened OrangeHRM tab
+2026-08-28 23:20:54 INFO  DashboardTest - Verifying that the new tab URL contains 'orangehrm.com'
+2026-08-28 23:20:54 INFO  PIM_Test - Clicking Add Employee button
+2026-08-28 23:20:55 INFO  PIM_Test - Entering last name: Mohsen
+2026-08-28 23:20:56 INFO  PIM_Test - Clicking Save button without entering first name
+2026-08-28 23:20:56 INFO  PIM_Test - Verifying that the required message is displayed under the First Name field
+2026-08-28 23:20:57 INFO  PIM_Test - First Name required message verification passed
+2026-08-28 23:20:57 INFO  PIM_Test - ========== Add Employee Empty First Name Test Passed ==========
+2026-08-28 23:21:00 INFO  DashboardTest - OrangeHRM URL verification passed
+2026-08-28 23:21:00 INFO  DashboardTest - Closing the OrangeHRM tab
+2026-08-28 23:21:00 INFO  DashboardTest - Switching back to the original browser window
+2026-08-28 23:21:00 INFO  DashboardTest - ========== OrangeHRM Footer Link Test Passed ==========
+2026-08-28 23:21:03 INFO  PIM_Test - ========== Starting End-to-End Employee Test ==========
+2026-08-28 23:21:03 INFO  PIM_Test - Initializing Login Page
+2026-08-28 23:21:03 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 23:21:03 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 23:21:05 INFO  LoginTest - ========== Starting Invalid Credentials Login Test ==========
+2026-08-28 23:21:05 INFO  LoginTest - Initializing Login Page
+2026-08-28 23:21:05 INFO  LoginTest - Attempting login with invalid credentials for user: wrong_user
+2026-08-28 23:21:06 INFO  DashboardTest - ========== Starting Dashboard Sidebar Menu Test ==========
+2026-08-28 23:21:06 INFO  DashboardTest - Initializing Login Page
+2026-08-28 23:21:06 INFO  DashboardTest - Initializing Dashboard Page
+2026-08-28 23:21:06 INFO  DashboardTest - Logging in with valid credentials for user: Admin
+2026-08-28 23:21:06 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 23:21:06 INFO  PIM_Test - Clicking Add Employee button
+2026-08-28 23:21:07 INFO  PIM_Test - Entering first name: Yousef
+2026-08-28 23:21:08 INFO  LoginTest - Verifying that the current URL contains the Login URL extension
+2026-08-28 23:21:08 INFO  LoginTest - Login URL verification passed
+2026-08-28 23:21:08 INFO  LoginTest - Verifying that the invalid credentials error message is displayed
+2026-08-28 23:21:08 INFO  PIM_Test - Entering last name: Mohsen
+2026-08-28 23:21:08 INFO  LoginTest - Invalid credentials error message verification passed
+2026-08-28 23:21:08 INFO  LoginTest - ========== Invalid Credentials Login Test Passed ==========
+2026-08-28 23:21:08 INFO  PIM_Test - Saving new employee: Yousef Mohsen
+2026-08-28 23:21:08 INFO  PIM_Test - Navigating back to PIM employee list
+2026-08-28 23:21:09 INFO  DashboardTest - Verifying that the Admin menu is displayed
+2026-08-28 23:21:09 INFO  DashboardTest - Admin menu verification passed
+2026-08-28 23:21:09 INFO  DashboardTest - Verifying that the PIM menu is displayed
+2026-08-28 23:21:09 INFO  DashboardTest - PIM menu verification passed
+2026-08-28 23:21:09 INFO  DashboardTest - Verifying that the Leave menu is displayed
+2026-08-28 23:21:09 INFO  DashboardTest - Leave menu verification passed
+2026-08-28 23:21:09 INFO  DashboardTest - Verifying that the Time menu is displayed
+2026-08-28 23:21:09 INFO  DashboardTest - Time menu verification passed
+2026-08-28 23:21:09 INFO  DashboardTest - Verifying that the Recruitment menu is displayed
+2026-08-28 23:21:09 INFO  DashboardTest - Recruitment menu verification passed
+2026-08-28 23:21:09 INFO  DashboardTest - Verifying that the My Info menu is displayed
+2026-08-28 23:21:09 INFO  DashboardTest - My Info menu verification passed
+2026-08-28 23:21:09 INFO  DashboardTest - Verifying that the Performance menu is displayed
+2026-08-28 23:21:09 INFO  DashboardTest - Performance menu verification passed
+2026-08-28 23:21:09 INFO  DashboardTest - Verifying that the Dashboard menu is displayed
+2026-08-28 23:21:09 INFO  DashboardTest - Dashboard menu verification passed
+2026-08-28 23:21:09 INFO  DashboardTest - Verifying that the Directory menu is displayed
+2026-08-28 23:21:09 INFO  DashboardTest - Directory menu verification passed
+2026-08-28 23:21:09 INFO  DashboardTest - ========== Dashboard Sidebar Menu Test Passed ==========
+2026-08-28 23:21:09 INFO  PIM_Test - Searching for newly created employee: Yousef Mohsen
+2026-08-28 23:21:10 INFO  PIM_Test - Clicking Search button
+2026-08-28 23:21:10 INFO  PIM_Test - Verifying that the newly created employee is displayed in the search results
+2026-08-28 23:21:11 INFO  LoginTest - ========== Starting Successful Login Test ==========
+2026-08-28 23:21:11 INFO  LoginTest - Initializing Login Page
+2026-08-28 23:21:11 INFO  LoginTest - Attempting login with valid credentials for user: Admin
+2026-08-28 23:21:14 INFO  LoginTest - Verifying that the current URL contains the Dashboard URL extension
+2026-08-28 23:21:14 INFO  LoginTest - Dashboard URL verification passed
+2026-08-28 23:21:14 INFO  LoginTest - Verifying that the Dashboard header is displayed
+2026-08-28 23:21:14 INFO  LoginTest - Dashboard header verification passed
+2026-08-28 23:21:14 INFO  LoginTest - ========== Successful Login Test Passed ==========
+2026-08-28 23:21:23 INFO  PIM_Test - ========== Starting Existing Employee Search Test ==========
+2026-08-28 23:21:23 INFO  PIM_Test - Initializing Login Page
+2026-08-28 23:21:23 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 23:21:23 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 23:21:26 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 23:21:27 INFO  PIM_Test - Searching for existing employee: Existing Employee
+2026-08-28 23:21:27 INFO  PIM_Test - Clicking Search button
+2026-08-28 23:21:27 INFO  PIM_Test - Verifying that the searched employee is displayed in the results
+2026-08-28 23:21:28 INFO  PIM_Test - Existing employee search verification passed
+2026-08-28 23:21:28 INFO  PIM_Test - ========== Existing Employee Search Test Passed ==========
+2026-08-28 23:21:31 INFO  PIM_Test - ========== Starting Non-Existing Employee Search Test ==========
+2026-08-28 23:21:31 INFO  PIM_Test - Initializing Login Page
+2026-08-28 23:21:31 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 23:21:31 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 23:21:34 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 23:21:34 INFO  PIM_Test - Searching for non-existing employee: wrong wrong
+2026-08-28 23:21:35 INFO  PIM_Test - Clicking Search button
+2026-08-28 23:21:35 INFO  PIM_Test - Verifying that the 'No Records Found' message is displayed
+2026-08-28 23:21:36 INFO  PIM_Test - No Records Found message verification passed
+2026-08-28 23:21:36 INFO  PIM_Test - ========== Non-Existing Employee Search Test Passed ==========
+2026-08-28 23:24:14 INFO  PIM_Test - ========== Starting Add Employee Page Test ==========
+2026-08-28 23:24:14 INFO  PIM_Test - Initializing Login Page
+2026-08-28 23:24:14 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 23:24:14 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 23:24:15 INFO  LoginTest - ========== Starting Empty Fields Login Test ==========
+2026-08-28 23:24:15 INFO  LoginTest - Initializing Login Page
+2026-08-28 23:24:15 INFO  LoginTest - Attempting login with empty username and password fields
+2026-08-28 23:24:16 INFO  AdminTest - ========== Starting Add User Content Test ==========
+2026-08-28 23:24:16 INFO  AdminTest - Initializing Login Page
+2026-08-28 23:24:16 INFO  AdminTest - Initializing Admin Page
+2026-08-28 23:24:16 INFO  AdminTest - Logging in with valid credentials for user: Admin
+2026-08-28 23:24:17 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 23:24:18 INFO  PIM_Test - Clicking Add Employee button
+2026-08-28 23:24:18 INFO  LoginTest - Verifying that the current URL contains the Login URL extension
+2026-08-28 23:24:18 INFO  LoginTest - Login URL verification passed
+2026-08-28 23:24:18 INFO  LoginTest - Verifying username required validation message
+2026-08-28 23:24:18 INFO  LoginTest - Username required validation message verification passed
+2026-08-28 23:24:18 INFO  LoginTest - Verifying password required validation message
+2026-08-28 23:24:18 INFO  LoginTest - Password required validation message verification passed
+2026-08-28 23:24:18 INFO  LoginTest - ========== Empty Fields Login Test Passed ==========
+2026-08-28 23:24:19 INFO  AdminTest - Navigating to Admin page
+2026-08-28 23:24:19 INFO  PIM_Test - Verifying that the First Name input field is displayed
+2026-08-28 23:24:19 INFO  PIM_Test - First Name input field verification passed
+2026-08-28 23:24:19 INFO  PIM_Test - Verifying that the Last Name input field is displayed
+2026-08-28 23:24:19 INFO  PIM_Test - Last Name input field verification passed
+2026-08-28 23:24:19 INFO  PIM_Test - Verifying that the current URL contains the Add Employee URL extension
+2026-08-28 23:24:19 INFO  PIM_Test - Add Employee URL verification passed
+2026-08-28 23:24:19 INFO  PIM_Test - ========== Add Employee Page Test Passed ==========
+2026-08-28 23:24:20 INFO  AdminTest - Opening User Management menu
+2026-08-28 23:24:20 INFO  AdminTest - Opening Users page
+2026-08-28 23:24:21 INFO  LoginTest - ========== Starting Invalid Credentials Login Test ==========
+2026-08-28 23:24:21 INFO  LoginTest - Initializing Login Page
+2026-08-28 23:24:21 INFO  LoginTest - Attempting login with invalid credentials for user: wrong_user
+2026-08-28 23:24:21 INFO  AdminTest - Clicking Add button to open Add User page
+2026-08-28 23:24:22 INFO  AdminTest - Verifying that the User Role dropdown is displayed
+2026-08-28 23:24:22 INFO  AdminTest - User Role dropdown verification passed
+2026-08-28 23:24:22 INFO  AdminTest - Verifying that the Employee Name field is displayed
+2026-08-28 23:24:22 INFO  AdminTest - Employee Name field verification passed
+2026-08-28 23:24:22 INFO  AdminTest - Verifying that the Username field is displayed
+2026-08-28 23:24:22 INFO  AdminTest - Username field verification passed
+2026-08-28 23:24:22 INFO  AdminTest - Verifying that the Password field is displayed
+2026-08-28 23:24:22 INFO  AdminTest - Password field verification passed
+2026-08-28 23:24:22 INFO  AdminTest - ========== Add User Content Test Passed ==========
+2026-08-28 23:24:23 INFO  PIM_Test - ========== Starting Add Employee Empty First Name Test ==========
+2026-08-28 23:24:23 INFO  PIM_Test - Initializing Login Page
+2026-08-28 23:24:23 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 23:24:23 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 23:24:24 INFO  LoginTest - Verifying that the current URL contains the Login URL extension
+2026-08-28 23:24:24 INFO  LoginTest - Login URL verification passed
+2026-08-28 23:24:24 INFO  LoginTest - Verifying that the invalid credentials error message is displayed
+2026-08-28 23:24:24 INFO  LoginTest - Invalid credentials error message verification passed
+2026-08-28 23:24:24 INFO  LoginTest - ========== Invalid Credentials Login Test Passed ==========
+2026-08-28 23:24:26 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 23:24:27 INFO  PIM_Test - Clicking Add Employee button
+2026-08-28 23:24:27 INFO  LoginTest - ========== Starting Successful Login Test ==========
+2026-08-28 23:24:27 INFO  LoginTest - Initializing Login Page
+2026-08-28 23:24:27 INFO  LoginTest - Attempting login with valid credentials for user: Admin
+2026-08-28 23:24:28 INFO  PIM_Test - Entering last name: Mohsen
+2026-08-28 23:24:28 INFO  DashboardTest - ========== Starting OrangeHRM Footer Link Test ==========
+2026-08-28 23:24:28 INFO  DashboardTest - Initializing Login Page
+2026-08-28 23:24:28 INFO  DashboardTest - Initializing Dashboard Page
+2026-08-28 23:24:28 INFO  DashboardTest - Logging in with valid credentials for user: Admin
+2026-08-28 23:24:28 INFO  PIM_Test - Clicking Save button without entering first name
+2026-08-28 23:24:29 INFO  PIM_Test - Verifying that the required message is displayed under the First Name field
+2026-08-28 23:24:30 INFO  PIM_Test - First Name required message verification passed
+2026-08-28 23:24:30 INFO  PIM_Test - ========== Add Employee Empty First Name Test Passed ==========
+2026-08-28 23:24:30 INFO  LoginTest - Verifying that the current URL contains the Dashboard URL extension
+2026-08-28 23:24:30 INFO  LoginTest - Dashboard URL verification passed
+2026-08-28 23:24:30 INFO  LoginTest - Verifying that the Dashboard header is displayed
+2026-08-28 23:24:30 INFO  LoginTest - Dashboard header verification passed
+2026-08-28 23:24:30 INFO  LoginTest - ========== Successful Login Test Passed ==========
+2026-08-28 23:24:31 INFO  DashboardTest - Scrolling to the footer
+2026-08-28 23:24:32 INFO  DashboardTest - Verifying that the footer contains 'OrangeHRM, Inc'
+2026-08-28 23:24:32 INFO  DashboardTest - Footer content verification passed
+2026-08-28 23:24:32 INFO  DashboardTest - Storing the original browser window handle
+2026-08-28 23:24:32 INFO  DashboardTest - Clicking the OrangeHRM footer link
+2026-08-28 23:24:32 INFO  DashboardTest - Switching to the newly opened OrangeHRM tab
+2026-08-28 23:24:32 INFO  DashboardTest - Verifying that the new tab URL contains 'orangehrm.com'
+2026-08-28 23:24:32 INFO  PIM_Test - ========== Starting End-to-End Employee Test ==========
+2026-08-28 23:24:32 INFO  PIM_Test - Initializing Login Page
+2026-08-28 23:24:32 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 23:24:32 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 23:24:35 INFO  DashboardTest - OrangeHRM URL verification passed
+2026-08-28 23:24:35 INFO  DashboardTest - Closing the OrangeHRM tab
+2026-08-28 23:24:35 INFO  DashboardTest - Switching back to the original browser window
+2026-08-28 23:24:35 INFO  DashboardTest - ========== OrangeHRM Footer Link Test Passed ==========
+2026-08-28 23:24:35 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 23:24:36 INFO  PIM_Test - Clicking Add Employee button
+2026-08-28 23:24:37 INFO  PIM_Test - Entering first name: Yousef
+2026-08-28 23:24:38 INFO  PIM_Test - Entering last name: Mohsen
+2026-08-28 23:24:38 INFO  PIM_Test - Saving new employee: Yousef Mohsen
+2026-08-28 23:24:38 INFO  PIM_Test - Navigating back to PIM employee list
+2026-08-28 23:24:38 INFO  DashboardTest - ========== Starting Dashboard Sidebar Menu Test ==========
+2026-08-28 23:24:38 INFO  DashboardTest - Initializing Login Page
+2026-08-28 23:24:38 INFO  DashboardTest - Initializing Dashboard Page
+2026-08-28 23:24:38 INFO  DashboardTest - Logging in with valid credentials for user: Admin
+2026-08-28 23:24:39 INFO  PIM_Test - Searching for newly created employee: Yousef Mohsen
+2026-08-28 23:24:39 INFO  PIM_Test - Clicking Search button
+2026-08-28 23:24:39 INFO  PIM_Test - Verifying that the newly created employee is displayed in the search results
+2026-08-28 23:24:40 INFO  PIM_Test - Newly created employee search verification passed
+2026-08-28 23:24:40 INFO  PIM_Test - ========== End-to-End Employee Test Passed ==========
+2026-08-28 23:24:41 INFO  DashboardTest - Verifying that the Admin menu is displayed
+2026-08-28 23:24:41 INFO  DashboardTest - Admin menu verification passed
+2026-08-28 23:24:41 INFO  DashboardTest - Verifying that the PIM menu is displayed
+2026-08-28 23:24:41 INFO  DashboardTest - PIM menu verification passed
+2026-08-28 23:24:41 INFO  DashboardTest - Verifying that the Leave menu is displayed
+2026-08-28 23:24:42 INFO  DashboardTest - Leave menu verification passed
+2026-08-28 23:24:42 INFO  DashboardTest - Verifying that the Time menu is displayed
+2026-08-28 23:24:42 INFO  DashboardTest - Time menu verification passed
+2026-08-28 23:24:42 INFO  DashboardTest - Verifying that the Recruitment menu is displayed
+2026-08-28 23:24:42 INFO  DashboardTest - Recruitment menu verification passed
+2026-08-28 23:24:42 INFO  DashboardTest - Verifying that the My Info menu is displayed
+2026-08-28 23:24:42 INFO  DashboardTest - My Info menu verification passed
+2026-08-28 23:24:42 INFO  DashboardTest - Verifying that the Performance menu is displayed
+2026-08-28 23:24:42 INFO  DashboardTest - Performance menu verification passed
+2026-08-28 23:24:42 INFO  DashboardTest - Verifying that the Dashboard menu is displayed
+2026-08-28 23:24:42 INFO  DashboardTest - Dashboard menu verification passed
+2026-08-28 23:24:42 INFO  DashboardTest - Verifying that the Directory menu is displayed
+2026-08-28 23:24:42 INFO  DashboardTest - Directory menu verification passed
+2026-08-28 23:24:42 INFO  DashboardTest - ========== Dashboard Sidebar Menu Test Passed ==========
+2026-08-28 23:24:43 INFO  PIM_Test - ========== Starting Existing Employee Search Test ==========
+2026-08-28 23:24:43 INFO  PIM_Test - Initializing Login Page
+2026-08-28 23:24:43 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 23:24:43 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 23:24:46 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 23:24:46 INFO  PIM_Test - Searching for existing employee: Existing Employee
+2026-08-28 23:24:47 INFO  PIM_Test - Clicking Search button
+2026-08-28 23:24:47 INFO  PIM_Test - Verifying that the searched employee is displayed in the results
+2026-08-28 23:24:48 INFO  PIM_Test - Existing employee search verification passed
+2026-08-28 23:24:48 INFO  PIM_Test - ========== Existing Employee Search Test Passed ==========
+2026-08-28 23:24:50 INFO  PIM_Test - ========== Starting Non-Existing Employee Search Test ==========
+2026-08-28 23:24:50 INFO  PIM_Test - Initializing Login Page
+2026-08-28 23:24:50 INFO  PIM_Test - Initializing PIM Page
+2026-08-28 23:24:50 INFO  PIM_Test - Logging in with valid credentials for user: Admin
+2026-08-28 23:24:53 INFO  PIM_Test - Navigating to PIM page
+2026-08-28 23:24:54 INFO  PIM_Test - Searching for non-existing employee: wrong wrong
+2026-08-28 23:24:54 INFO  PIM_Test - Clicking Search button
+2026-08-28 23:24:55 INFO  PIM_Test - Verifying that the 'No Records Found' message is displayed
+2026-08-28 23:24:55 INFO  PIM_Test - No Records Found message verification passed
+2026-08-28 23:24:55 INFO  PIM_Test - ========== Non-Existing Employee Search Test Passed ==========
